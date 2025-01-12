@@ -1,0 +1,16 @@
+{
+    "name" : "Custom templates",
+    "description" : "Pack of custom templates made by vcmi community",
+    "author" : "Various",
+    "contact" : "https://discord.gg/tx2wXtZp",
+    "modType" : "Templates",	
+	"version" : "1.0.0",
+ 	"compatibility" :
+	{
+		"min" : "1.5.6"
+	}
+    "changelog" :
+    {
+        "1.0"    : [ "Initial release with 2 Ash templates"]
+    }
+}

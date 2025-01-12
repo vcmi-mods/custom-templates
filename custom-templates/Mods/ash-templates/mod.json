@@ -1,0 +1,36 @@
+{
+    "name" : "ash-templates",
+
+    "description" : "A batch of highly alternative random map templates.",
+    "depends" : ["newtown-terrains.spoiledLand","hota.mapDecorations","newtown-terrains.deadlandTerrain"],
+    "author" : "Ash&Amber",
+
+    "contact" : "Ash&Amber",
+
+    "modType" : "Templates",
+    
+    "templates" : 
+	[ 
+	    "Ash1.JSON",
+	    "Ash2.JSON" 
+	],
+	
+	"version" : "1.0",
+ 
+    "changelog" :
+    {
+        "1.0"    : [ "initial release"]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.5.6"
+	},
+	
+    "keepDisabled" : false,
+    
+	"chinese" : {
+    	"name" : "ash地图模板集",
+    	"description" : "一批可高度定制的随机地图模板。"
+    }
+}
