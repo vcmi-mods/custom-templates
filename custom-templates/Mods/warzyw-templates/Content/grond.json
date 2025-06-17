@@ -1,0 +1,616 @@
+{
+	"Grond" :
+	{
+		"minSize" : "l",
+		"maxSize" : "l",
+		"players" : "2-8", // should be 2 human/computer and 6 computer players, but I can't restrict it like that for now
+		"humans" : "1-2",
+		"allowedWaterContent" : ["none"],
+		"zones" :
+		{
+			"1" : // Middle
+			{
+				"type" : "treasure",
+				"size" : 12,
+				"neutralTowns" :
+				{
+				"towns" : 1
+				},
+				"monsters" : "strong",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "swamp" ],
+				"bannedTowns" : [ "castle", "tower", "rampart", "stronghold", "fortress", "conflux", "inferno", "dungeon" ],
+				"treasure" :
+				[
+					{
+						"min" : 1000,
+						"max" : 4000,
+						"density" : 20
+					},
+					{
+						"min" : 3000,
+						"max" : 8000,
+						"density" : 16
+					},
+					{
+						"min" : 7000,
+						"max" : 11900,
+						"density" : 10
+					}
+				]
+			},
+			"2" : // Red's treasure
+			{
+				"type" : "junction",
+				"size" : 8,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "dirt" ],
+				"mines" :
+				{
+					"gold" : 2
+				},
+				"treasure" :
+				[
+					{
+						"min" : 1000,
+						"max" : 4000,
+						"density" : 20
+					},
+					{
+						"min" : 3000,
+						"max" : 8000,
+						"density" : 16
+					},
+					{
+						"min" : 7000,
+						"max" : 15000,
+						"density" : 12
+					}
+				]
+			},
+			"3" : // Blue's treasure
+			{
+				"type" : "junction",
+				"size" : 8,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : false,
+				"treasureLikeZone" : 2,
+				"minesLikeZone" : 2,
+				"terrainTypeLikeZone" : 2
+			},
+			"4" : // Red's hall
+			{
+				"type" : "junction",
+				"size" : 8,
+				"neutralTowns" :
+				{
+				"towns" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"allowedTowns" : ["conflux"],
+				"mines" :
+				{
+					"mercury" : 1,
+					"sulfur" : 1,
+					"crystal" : 1,
+					"gems" : 1
+				},
+				"treasure" :
+				[
+					{
+						"min" : 2000,
+						"max" : 3500,
+						"density" : 10
+					},
+					{
+						"min" : 1500,
+						"max" : 2500,
+						"density" : 16
+					},
+					{
+						"min" : 1000,
+						"max" : 2000,
+						"density" : 20
+					}
+				]
+			},
+			"5" : // Blue's hall
+			{
+				"type" : "junction",
+				"size" : 8,
+				"neutralTowns" :
+				{
+				"towns" : 1
+				},
+				"monsters" : "normal",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"allowedTowns" : ["conflux"],
+				"treasureLikeZone" : 4,
+				"minesLikeZone" : 4
+			},
+			"6" : // Red start
+			{
+				"type" : "playerStart",
+				"size" : 12,
+				"owner" : 1,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"neutralTowns" :
+				{
+				"towns" : 1
+				},
+				"townsAreSameType" : true,
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"wood" : 1,
+					"ore" : 1
+				},
+				"treasure" :
+				[
+					{
+						"min" : 500,
+						"max" : 2000,
+						"density" : 18
+					},
+					{
+						"min" : 2000,
+						"max" : 5000,
+						"density" : 12
+					},
+					{
+						"min" : 5000,
+						"max" : 8000,
+						"density" : 6
+					}
+				]
+			},
+			"7" : // Blue start
+			{
+				"type" : "playerStart",
+				"size" : 12,
+				"owner" : 2,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+				"towns" : 1
+				},
+				"townsAreSameType" : true,
+				"monsters" : "normal",
+				"matchTerrainToTown" : true,
+				"mines" :
+				{
+					"wood" : 1,
+					"ore" : 1
+				},
+				"treasureLikeZone" : 6
+			},
+			"8" : // Red's first AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 3,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+			},
+			"9" : // Blues's first AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 4,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+			},
+			"10" : // Red's second AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 5,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"treasureLikeZone" : 2,
+				"minesLikeZone" : 4,
+				"terrainTypeLikeZone" : 2
+			},
+			"11" : // Blues's second AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 6,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"treasureLikeZone" : 2,
+				"minesLikeZone" : 4,
+				"terrainTypeLikeZone" : 2
+			},
+			"12" : // Middle AI
+			{
+				"type" : "cpuStart",
+				"size" : 8,
+				"owner" : 7,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "swamp" ],
+				"treasure" :
+				[
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 20
+					},
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 16
+					},
+					{
+						"min" : 20000,
+						"max" : 30000,
+						"density" : 8
+					}
+				],
+				"mines" :
+				{
+					"wood" : 1,
+					"ore" : 1,
+					"mercury" : 1,
+					"sulfur" : 1,
+					"crystal" : 1,
+					"gems" : 1,
+					"gold" : 1
+				},
+			},
+			"13" : // Other Middle AI
+			{
+				"type" : "cpuStart",
+				"size" : 8,
+				"owner" : 8,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "swamp" ],
+				"treasureLikeZone" : 12,
+				"minesLikeZone" : 12,
+			},
+			"14" : // Red's other second AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 4,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"treasureLikeZone" : 2,
+				"minesLikeZone" : 4,
+				"terrainTypeLikeZone" : 2
+			},
+			"15" : // Blues's other second AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 3,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"treasureLikeZone" : 2,
+				"minesLikeZone" : 4,
+				"terrainTypeLikeZone" : 2
+			},
+			"16" : // Red's other first AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 6,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+			},
+			"17" : // Blue's other first AI
+			{
+				"type" : "cpuStart",
+				"size" : 6,
+				"owner" : 5,
+				"playerTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "grass" ],
+				"treasureLikeZone" : 6,
+				"minesLikeZone" : 6,
+			},
+			"18" : // Red's first AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasure" :
+				[
+					{
+						"min" : 11000,
+						"max" : 15200,
+						"density" : 40
+					},
+					{
+						"min" : 15200,
+						"max" : 18900,
+						"density" : 40
+					},
+					{
+						"min" : 18900,
+						"max" : 25900,
+						"density" : 40
+					}
+				]
+			},
+			"19" : // Blue's first AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 18,
+			},
+			"20" : // Red's other first AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 18,
+			},
+			"21" : // Blue's other first AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 18,
+			},
+			"22" : // Red's second AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasure" :
+				[
+					{
+						"min" : 36800,
+						"max" : 47700,
+						"density" : 40
+					},
+					{
+						"min" : 25900,
+						"max" : 36800,
+						"density" : 40
+					},
+					{
+						"min" : 18900,
+						"max" : 25900,
+						"density" : 40
+					}
+				]
+			},
+			"23" : // Blue's second AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 22,
+			},
+			"24" : // Red's other second AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 22,
+			},
+			"25" : // Blue's other second AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasureLikeZone" : 22,
+			},
+			"26" : // Middle AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"neutralTowns" :
+				{
+				"castles" : 1
+				},
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"treasure" :
+				[
+					{
+						"min" : 36800,
+						"max" : 47700,
+						"density" : 40
+					},
+					{
+						"min" : 25900,
+						"max" : 36800,
+						"density" : 40
+					},
+					{
+						"min" : 47700,
+						"max" : 59500,
+						"density" : 40
+					}
+				]
+			},
+			"27" : // Other middle AI's treasure
+			{
+				"type" : "treasure",
+				"size" : 6,
+				"monsters" : "none",
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"allowedTowns" : ["neutral"],
+				"treasure" :
+				[
+					{
+						"min" : 36800,
+						"max" : 47700,
+						"density" : 40
+					},
+					{
+						"min" : 59500,
+						"max" : 100000,
+						"density" : 40
+					},
+					{
+						"min" : 47700,
+						"max" : 59500,
+						"density" : 40
+					}
+				]
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "2", "guard" : 12000 },
+			{ "a" : "1", "b" : "3", "guard" : 12000 },
+			{ "a" : "2", "b" : "4", "guard" : 9000 },
+			{ "a" : "3", "b" : "5", "guard" : 9000 },
+			{ "a" : "4", "b" : "6", "guard" : 7000 },
+			{ "a" : "5", "b" : "7", "guard" : 7000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 },
+			{ "a" : "5", "b" : "9", "guard" : 10000 },
+			{ "a" : "2", "b" : "10", "guard" : 24000 },
+			{ "a" : "3", "b" : "11", "guard" : 24000 },
+			{ "a" : "1", "b" : "12", "guard" : 40000 },
+			{ "a" : "1", "b" : "13", "guard" : 32000 },
+			{ "a" : "2", "b" : "14", "guard" : 16000 },
+			{ "a" : "3", "b" : "15", "guard" : 16000 },
+			{ "a" : "4", "b" : "16", "guard" : 12000 },
+			{ "a" : "5", "b" : "17", "guard" : 12000 },
+			{ "a" : "8", "b" : "18", "guard" : 4000 },
+			{ "a" : "9", "b" : "19", "guard" : 4000 },
+			{ "a" : "16", "b" : "20", "guard" : 5000 },
+			{ "a" : "17", "b" : "21", "guard" : 5000 },
+			{ "a" : "10", "b" : "22", "guard" : 7000 },
+			{ "a" : "11", "b" : "23", "guard" : 7000 },
+			{ "a" : "14", "b" : "24", "guard" : 7000 },
+			{ "a" : "15", "b" : "25", "guard" : 7000 },
+			{ "a" : "12", "b" : "26", "guard" : 9000 },
+			{ "a" : "13", "b" : "27", "guard" : 9000 },
+			{ "a" : "2", "b" : "3", "type": "repulsive" },
+			{ "a" : "4", "b" : "5", "type": "repulsive" },
+			{ "a" : "6", "b" : "7", "type": "repulsive" },
+			{ "a" : "8", "b" : "16", "type": "repulsive" },
+			{ "a" : "9", "b" : "17", "type": "repulsive" },
+			{ "a" : "10", "b" : "14", "type": "repulsive" },
+			{ "a" : "11", "b" : "15", "type": "repulsive" },
+			{ "a" : "11", "b" : "12", "type": "repulsive" }
+		]
+	}
+}
