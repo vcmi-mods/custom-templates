@@ -1,0 +1,26 @@
+{
+	"name" : "warzyw-templates",
+	"description" : "Another batch of highly alternative random map templates.<br><br>Sim City:<br>Strong guards separate you from the other parts of your poor city.<br>Build your part well and you might be able to break through to the other players.<br>There's also a neutral part in the middle of the city with twice more towns and all Forts built.<br>Recommended difficulty: 160%.<br>Up to 8 players.<br>Size XL.<br>Inspired by the Pyda XL template.<br><br>Grond:<br>Are you strong enough to walk the path to the other human?<br>There's 1 path between Red and Blue and if you don't hurry, strong AI armies will get in your way.<br>Named after a certain fight in one WoG map (Gauntlet of the Grond in Swords of Night and Day by Jim Vogan), which was probably named after Morgoth's hammer from Tolkien's Silmarillion.<br>Size L,<br>2 humans,<br>6 AIs,<br>Average Road,<br>average timer and sim turns,<br>160%,<br>standard trades for town and color,<br>leave AIs' towns as random,<br>1x111 res,<br>tech res if passage to one of the AIs generates as a guarded portal on the road, you can't beat that guard without big losses and can't go around it<br>Suggested mods: HotA to get non-grass native terrain for Conflux and at least one mod with a new town.",
+	"author" : "Warzyw647",
+	"contact" : "warzyw647 on heroes-themed Discords",
+	"modType" : "Templates",
+	"version" : "1.0",
+	"compatibility" :
+	{
+		"min" : "1.6.0"
+	},
+	"keepDisabled" : false,
+	"templates" :
+	[
+		"sim-city.json",
+		"grond.json"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "Moved Grond and Sim City from mod warzyw-templates. Brawl and Arena from warzyw-templates were moved to PvP-balance mod."],
+	},
+	"chinese" : {
+		"name" : "warzyw地图模板集",
+		"description" : "一批可高度定制的随机地图模板。（由紫玥炎霄汉化）<br><br>8人随机特大地图模板（sim-city）:<br>这是一个受Pyda XL模板启发而来的随机特大地图模板，<br>名为模拟城市，支持8人游戏，推荐160%难度开局。<br>强大的守卫将你的初始小城与其他区域分隔开来。<br>只有好好建设你的城镇，才有可能突破到其他玩家的领地。<br>此外，城市中央有一处中立区域，拥有众多已经建设好堡垒的无主城镇。<br><br>8人随机大地图模板（Grond）:<br>随机地图模板，大小为L，包含2名人类玩家和6名AI玩家，有标准的道路。<br>人类玩家需要尽快通过唯一道路到达对方，以免被强大的AI军队阻挡。<br>建议160%难度开局，<br>每个玩家拥有1x111资源，<br>如果通往某个AI玩家的道路生成了一个被守护的传送门，那么你必须打败守卫或通过其他方式绕过它。<br>建议启用深渊号角模组，以获得非草原的原生地形，以及至少一个包含新城镇的模组。<br>模板名字意为“战锤”，来源于一个WOG地图（Gauntlet of the Grond in Swords of Night and Day，作者Jim Vogan），而该地图名称可能又来源于托尔金《精灵宝钻》中魔苟斯的战锤。"
+	}
+}

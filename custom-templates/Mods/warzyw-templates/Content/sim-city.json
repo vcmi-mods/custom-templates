@@ -1,0 +1,369 @@
+{
+	"Sim City" :
+	{
+		"minSize" : "xl",
+		"maxSize" : "xl",
+		"players" : "2-8",
+		"allowedWaterContent" : ["none"],
+		"zones" :
+		{
+			"1" : // neutral mid
+			{
+				"type" : "treasure",
+				"size" : 16,
+				"neutralTowns" :
+				{
+					"castles" : 20
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"2" : // player 1
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 1,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"3" : // player 2
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 2,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"4" : // player 3
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 3,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"5" : // player 4
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 4,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"6" : // player 5
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 5,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"7" : // player 6
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 6,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"8" : // player 7
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 7,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			},
+			"9" : // player 8
+			{
+				"type" : "playerStart",
+				"size" : 8,
+				"owner" : 8,
+				"playerTowns" :
+				{
+					"castles" : 1
+				},
+				"neutralTowns" :
+				{
+					"towns" : 9
+				},
+				"townsAreSameType" : true,
+				"matchTerrainToTown" : true,
+				"monsters" : "strong",
+				"treasure" :
+				[
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					},
+					{
+						"min" : 10,
+						"max" : 10,
+						"density" : 5
+					}
+				]
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "2", "guard" : 100000, "road" : "false" },
+			{ "a" : "2", "b" : "3", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "3", "guard" : 100000, "road" : "false" },
+			{ "a" : "3", "b" : "4", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "4", "guard" : 100000, "road" : "false" },
+			{ "a" : "4", "b" : "5", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "5", "guard" : 100000, "road" : "false" },
+			{ "a" : "5", "b" : "6", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "6", "guard" : 100000, "road" : "false" },
+			{ "a" : "6", "b" : "7", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "7", "guard" : 100000, "road" : "false" },
+			{ "a" : "7", "b" : "8", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "8", "guard" : 100000, "road" : "false" },
+			{ "a" : "8", "b" : "9", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "9", "guard" : 100000, "road" : "false" },
+			{ "a" : "9", "b" : "2", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "2", "guard" : 100000, "road" : "false" },
+			{ "a" : "2", "b" : "3", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "3", "guard" : 100000, "road" : "false" },
+			{ "a" : "3", "b" : "4", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "4", "guard" : 100000, "road" : "false" },
+			{ "a" : "4", "b" : "5", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "5", "guard" : 100000, "road" : "false" },
+			{ "a" : "5", "b" : "6", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "6", "guard" : 100000, "road" : "false" },
+			{ "a" : "6", "b" : "7", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "7", "guard" : 100000, "road" : "false" },
+			{ "a" : "7", "b" : "8", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "8", "guard" : 100000, "road" : "false" },
+			{ "a" : "8", "b" : "9", "guard" : 100000, "road" : "false" },
+			{ "a" : "1", "b" : "9", "guard" : 100000, "road" : "false" },
+			{ "a" : "9", "b" : "2", "guard" : 100000, "road" : "false" },
+			{ "a" : "2", "b" : "4", "type": "fictive" },
+			{ "a" : "3", "b" : "5", "type": "fictive" },
+			{ "a" : "4", "b" : "6", "type": "fictive" },
+			{ "a" : "5", "b" : "7", "type": "fictive" },
+			{ "a" : "6", "b" : "8", "type": "fictive" },
+			{ "a" : "7", "b" : "9", "type": "fictive" },
+			{ "a" : "8", "b" : "2", "type": "fictive" },
+			{ "a" : "9", "b" : "3", "type": "fictive" },
+			{ "a" : "2", "b" : "6", "type": "repulsive" },
+			{ "a" : "3", "b" : "7", "type": "repulsive" },
+			{ "a" : "4", "b" : "8", "type": "repulsive" },
+			{ "a" : "5", "b" : "9", "type": "repulsive" }
+		]
+	}
+}
