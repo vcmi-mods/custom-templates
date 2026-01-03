@@ -1,0 +1,1246 @@
+{
+	"Two Towns UG Connections FFA" : {
+		"allowedWaterContent" : [
+			"none"
+		],
+		"bannedArtifacts" : [
+			"core:birdOfPerception",
+			"core:stoicWatchman",
+			"core:emblemOfCognizance",
+			"core:statesmansMedal",
+			"core:diplomatsRing",
+			"core:ambassadorsSash",
+			"core:necklaceOfOceanGuidance",
+			"core:angelWings",
+			"core:recantersCloak",
+			"core:bootsOfLevitation",
+			"core:goldenBow",
+			"core:pendantOfDispassion",
+			"core:pendantOfSecondSight",
+			"core:seaCaptainsHat",
+			"core:orbOfInhibition",
+			"core:cloakOfTheUndeadKing",
+			"hota.neutralcreatures:hornOfTheAbyss"
+		],
+		"bannedSkills" : [
+			"core:scouting",
+			"core:diplomacy",
+			"core:navigation",
+			"core:mysticism",
+			"core:eagleEye",
+			"core:necromancy",
+			"core:scholar",
+			"core:learning"
+		],
+		"bannedSpells" : [
+			"core:summonBoat",
+			"core:scuttleBoat",
+			"core:disguise",
+			"core:fly",
+			"core:waterWalk",
+			"core:dimensionDoor",
+			"core:magicMirror",
+			"core:berserk",
+			"core:blind",
+			"core:removeObstacle"
+		],
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "2",
+				"road" : "true",
+				"type" : "wide"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "5",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "6",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "3",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "1",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "1",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "2",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "2",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "7",
+				"b" : "3",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "8",
+				"b" : "3",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "9",
+				"b" : "6",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "10",
+				"b" : "6",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "11",
+				"b" : "5",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "12",
+				"b" : "5",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "13",
+				"b" : "4",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "14",
+				"b" : "4",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "15",
+				"guard" : 25000,
+				"road" : "false"
+			},
+			{
+				"a" : "2",
+				"b" : "15",
+				"guard" : 25000,
+				"road" : "false"
+			}
+		],
+		"description" : "8-player template where underground zones connect the players with each other or with a large treasure zone in the middle.",
+		"maxSize" : "180x180x2",
+		"minSize" : "xl+u",
+		"name" : "Two Towns UG Connections FFA",
+		"players" : "8",
+		"zones" : {
+			"1" : {
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling",
+						"pandorasBox"
+					],
+					"bannedObjects" : {
+						"core:arena" : {
+							"arena" : true
+						},
+						"core:dragonUtopia" : {
+							"dragonUtopia" : true
+						},
+						"core:gardenOfRevelation" : {
+							"gardenOfRevelation" : true
+						},
+						"core:libraryOfEnlightenment" : {
+							"libraryOfEnlightenment" : true
+						},
+						"core:marlettoTower" : {
+							"marlettoTower" : true
+						},
+						"core:mercenaryCamp" : {
+							"mercenaryCamp" : true
+						},
+						"core:mysticalGarden" : {
+							"mysticalGarden" : true
+						},
+						"core:prison" : {
+							"prison" : true
+						},
+						"core:starAxis" : {
+							"starAxis" : true
+						},
+						"core:waterWheel" : {
+							"waterWheel" : true
+						},
+						"core:windmill" : {
+							"windmill" : true
+						},
+						"hota.mapobjects:colosseumOfTheMagi" : {
+							"colosseumOfTheMagi" : true
+						},
+						"hota.wastelandterrain:derrick" : {
+							"derrick" : true
+						},
+						"hota.wastelandterrain:prospector" : {
+							"prospector" : true
+						},
+						"core:creatureBank" : {
+							"wolfRaiderPicket" : true,
+							"dragonFlyHive" : true,
+							"griffinConservatory" : true,
+							"experimentalShop" : true,
+							"redTower" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 8000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "libraryOfEnlightenment",
+							"type" : "core:libraryOfEnlightenment"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 10000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "dragonUtopia",
+							"type" : "core:dragonUtopia"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 4000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 4000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "colosseumOfTheMagi",
+							"type" : "hota.mapobjects:colosseumOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 3000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 3000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 3000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 3000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 5
+							},
+							"subtype" : "wolfRaiderPicket",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 5
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 5
+							},
+							"subtype" : "experimentalShop",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 5
+							},
+							"subtype" : "redTower",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 5
+							},
+							"subtype" : "dragonFlyHive",
+							"type" : "core:creatureBank"	
+						}
+					]
+				},
+				"forcedLevel" : "surface",
+				"matchTerrainToTown" : false,
+				"mines" : {
+					"crystal" : 1,
+					"gems" : 1,
+					"gold" : 2,
+					"mercury" : 1,
+					"ore" : 0,
+					"sulfur" : 1,
+					"wood" : 0
+				},
+				"monsters" : "strong",
+				"neutralTowns" : {
+					"castles" : 2
+				},
+				"townHints" : [
+					{
+						"notLikeZone" : [7, 8, 9, 10, 11, 12, 13, 14]
+					}
+				],
+				"size" : 45,
+				"treasure" : [
+					{
+						"density" : 5,
+						"max" : 15000,
+						"min" : 7500
+					},
+					{
+						"density" : 4,
+						"max" : 7500,
+						"min" : 3500
+					},
+					{
+						"density" : 1,
+						"max" : 3500
+					},
+					{
+						"density" : 5,
+						"max" : 25000,
+						"min" : 15000
+					},
+					{
+						"density" : 2,
+						"max" : 32500,
+						"min" : 25000
+					}
+				],
+				"type" : "treasure",
+				"visiblePositionX" : 150,
+				"visiblePositionY" : 130,
+				"visibleSize" : 1
+			},
+			"10" : {
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 4,
+				// Player 4 (green)
+				"allowedTowns" : ["inferno"],
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"size" : 20,
+				"townsAreSameType" : true,
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : -130,
+				"visiblePositionY" : 610,
+				"visibleSize" : 1
+			},
+			"11" : {
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 5,
+				// Player 5 (orange)
+				"allowedTowns" : ["rampart"],
+				"size" : 20,
+				"townsAreSameType" : true,
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : 590,
+				"visiblePositionY" : 560,
+				"visibleSize" : 1
+			},
+			"12" : {
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 6,
+				// Player 6 (purple)
+				"allowedTowns" : ["conflux"],
+				"size" : 20,
+				"townsAreSameType" : true,
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : 780,
+				"visiblePositionY" : 410,
+				"visibleSize" : 1
+			},
+			"13" : {
+				// Player 7 (teal)
+				"allowedTowns" : ["hota.factory:factory"],
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 7,
+				"size" : 20,
+				"townsAreSameType" : true,
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : 750,
+				"visiblePositionY" : -200,
+				"visibleSize" : 1
+			},
+			"14" : {
+				// Player 8 (pink)
+				"allowedTowns" : ["tower"],
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 8,
+				"size" : 20,
+				"townsAreSameType" : true,
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : 540,
+				"visiblePositionY" : -360,
+				"visibleSize" : 1
+			},
+			"15" : {
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling",
+						"pandorasBox"
+					],
+					"bannedObjects" : {
+						"core:arena" : {
+							"arena" : true
+						},
+						"core:dragonUtopia" : {
+							"dragonUtopia" : true
+						},
+						"core:gardenOfRevelation" : {
+							"gardenOfRevelation" : true
+						},
+						"core:libraryOfEnlightenment" : {
+							"libraryOfEnlightenment" : true
+						},
+						"core:marlettoTower" : {
+							"marlettoTower" : true
+						},
+						"core:mercenaryCamp" : {
+							"mercenaryCamp" : true
+						},
+						"core:mysticalGarden" : {
+							"mysticalGarden" : true
+						},
+						"core:prison" : {
+							"prison" : true
+						},
+						"core:starAxis" : {
+							"starAxis" : true
+						},
+						"core:waterWheel" : {
+							"waterWheel" : true
+						},
+						"core:windmill" : {
+							"windmill" : true
+						},
+						"hota.mapobjects:colosseumOfTheMagi" : {
+							"colosseumOfTheMagi" : true
+						},
+						"hota.wastelandterrain:derrick" : {
+							"derrick" : true
+						},
+						"hota.wastelandterrain:prospector" : {
+							"prospector" : true
+						},
+						"core:creatureBank" : {
+							"wolfRaiderPicket" : true,
+							"dragonFlyHive" : true,
+							"griffinConservatory" : true,
+							"experimentalShop" : true,
+							"redTower" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 10000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "dragonUtopia",
+							"type" : "core:dragonUtopia"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "colosseumOfTheMagi",
+							"type" : "hota.mapobjects:colosseumOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 8
+							},
+							"subtype" : "wolfRaiderPicket",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 8
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 8
+							},
+							"subtype" : "experimentalShop",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 8
+							},
+							"subtype" : "redTower",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 8
+							},
+							"subtype" : "dragonFlyHive",
+							"type" : "core:creatureBank"	
+						}
+					]
+				},
+				"forcedLevel" : "underground",
+				"matchTerrainToTown" : false,
+				"mines" : {
+					"crystal" : 2,
+					"gems" : 2,
+					"gold" : 2,
+					"mercury" : 2,
+					"ore" : 0,
+					"sulfur" : 2,
+					"wood" : 0
+				},
+				"monsters" : "strong",
+				"size" : 60,
+				"treasure" : [
+					{
+						"density" : 4,
+						"max" : 7500,
+						"min" : 5000
+					},
+					{
+						"density" : 4,
+						"max" : 15000,
+						"min" : 7500
+					},
+					{
+						"density" : 4,
+						"max" : 25000,
+						"min" : 15000
+					},
+					{
+						"density" : 2,
+						"max" : 35000,
+						"min" : 25000
+					}
+				],
+				"type" : "treasure",
+				"visiblePositionX" : 250,
+				"visiblePositionY" : 270,
+				"visibleSize" : 1
+			},
+			"2" : {
+				"neutralTowns" : {
+					"castles" : 2
+				},
+				"townHints" : [
+					{
+						"notLikeZone" : [7, 8, 9, 10, 11, 12, 13, 14]
+					}
+				],
+				"customObjectsLikeZone" : 1,
+				"forcedLevel" : "surface",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 1,
+				"monsters" : "strong",
+				"size" : 45,
+				"treasureLikeZone" : 1,
+				"type" : "treasure",
+				"visiblePositionX" : 360,
+				"visiblePositionY" : 130,
+				"visibleSize" : 1
+			},
+			"3" : {
+				"monsters" : "normal",
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling",
+						"pandorasBox"
+					],
+					"bannedObjects" : {
+						"core:arena" : {
+							"arena" : true
+						},
+						"core:dragonUtopia" : {
+							"dragonUtopia" : true
+						},
+						"core:gardenOfRevelation" : {
+							"gardenOfRevelation" : true
+						},
+						"core:libraryOfEnlightenment" : {
+							"libraryOfEnlightenment" : true
+						},
+						"core:marlettoTower" : {
+							"marlettoTower" : true
+						},
+						"core:mercenaryCamp" : {
+							"mercenaryCamp" : true
+						},
+						"core:mysticalGarden" : {
+							"mysticalGarden" : true
+						},
+						"core:prison" : {
+							"prison" : true
+						},
+						"core:starAxis" : {
+							"starAxis" : true
+						},
+						"core:waterWheel" : {
+							"waterWheel" : true
+						},
+						"core:windmill" : {
+							"windmill" : true
+						},
+						"hota.mapobjects:colosseumOfTheMagi" : {
+							"colosseumOfTheMagi" : true
+						},
+						"hota.mapobjects:townGate" : {
+							"townGate" : true
+						},
+						"hota.wastelandterrain:derrick" : {
+							"derrick" : true
+						},
+						"hota.wastelandterrain:prospector" : {
+							"prospector" : true
+						},
+						"core:creatureBank" : {
+							"wolfRaiderPicket" : true,
+							"dragonFlyHive" : true,
+							"griffinConservatory" : true,
+							"experimentalShop" : true,
+							"redTower" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "townGate",
+							"type" : "hota.mapobjects:townGate"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "colosseumOfTheMagi",
+							"type" : "hota.mapobjects:colosseumOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "wolfRaiderPicket",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "experimentalShop",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 6500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "redTower",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 9500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "dragonFlyHive",
+							"type" : "core:creatureBank"	
+						}
+					]
+				},
+				"forcedLevel" : "underground",
+				"matchTerrainToTown" : false,
+				"size" : 17,
+				"treasure" : [
+					{
+						"density" : 1,
+						"max" : 17500,
+						"min" : 10000
+					},
+					{
+						"density" : 3,
+						"max" : 10000,
+						"min" : 6000
+					},
+					{
+						"density" : 4,
+						"max" : 6000,
+						"min" : 3500
+					},
+					{
+						"density" : 7,
+						"max" : 3500
+					}
+				],
+				"type" : "treasure",
+				"visiblePositionX" : -60,
+				"visiblePositionY" : -100,
+				"visibleSize" : 1
+			},
+			"4" : {
+				"monsters" : "normal",
+				"customObjectsLikeZone" : 3,
+				"forcedLevel" : "underground",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 3,
+				"size" : 17,
+				"townsLikeZone" : 3,
+				"treasureLikeZone" : 3,
+				"type" : "treasure",
+				"visiblePositionX" : 550,
+				"visiblePositionY" : -100,
+				"visibleSize" : 1
+			},
+			"5" : {
+				"monsters" : "normal",
+				"customObjectsLikeZone" : 3,
+				"forcedLevel" : "underground",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 3,
+				"size" : 17,
+				"townsLikeZone" : 3,
+				"treasureLikeZone" : 3,
+				"type" : "treasure",
+				"visiblePositionX" : 570,
+				"visiblePositionY" : 350,
+				"visibleSize" : 1
+			},
+			"6" : {
+				"monsters" : "normal",
+				"customObjectsLikeZone" : 3,
+				"forcedLevel" : "underground",
+				"matchTerrainToTown" : false,
+				"minesLikeZone" : 3,
+				"size" : 17,
+				"townsLikeZone" : 3,
+				"treasureLikeZone" : 3,
+				"type" : "treasure",
+				"visiblePositionX" : -70,
+				"visiblePositionY" : 370,
+				"visibleSize" : 1
+			},
+			"7" : {
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling",
+						"pandorasBox"
+					],
+					"bannedObjects" : {
+						"core:arena" : {
+							"arena" : true
+						},
+						"core:dragonUtopia" : {
+							"dragonUtopia" : true
+						},
+						"core:gardenOfRevelation" : {
+							"gardenOfRevelation" : true
+						},
+						"core:libraryOfEnlightenment" : {
+							"libraryOfEnlightenment" : true
+						},
+						"core:marlettoTower" : {
+							"marlettoTower" : true
+						},
+						"core:mercenaryCamp" : {
+							"mercenaryCamp" : true
+						},
+						"core:mysticalGarden" : {
+							"mysticalGarden" : true
+						},
+						"core:starAxis" : {
+							"starAxis" : true
+						},
+						"core:university" : {
+							"object" : true
+						},
+						"core:waterWheel" : {
+							"waterWheel" : true
+						},
+						"core:windmill" : {
+							"windmill" : true
+						},
+						"hota.mapobjects:colosseumOfTheMagi" : {
+							"colosseumOfTheMagi" : true
+						},
+						"hota.wastelandterrain:derrick" : {
+							"derrick" : true
+						},
+						"hota.wastelandterrain:prospector" : {
+							"prospector" : true
+						},
+						"core:creatureBank" : {
+							"wolfRaiderPicket" : true,
+							"dragonFlyHive" : true,
+							"griffinConservatory" : true,
+							"experimentalShop" : true,
+							"redTower" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:university"
+						},
+						{
+							"rmg" : {
+								"rarity" : 90,
+								"value" : 2500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "windmill",
+							"type" : "core:windmill"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "waterWheel",
+							"type" : "core:waterWheel"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "derrick",
+							"type" : "hota.wastelandterrain:derrick"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mysticalGarden",
+							"type" : "core:mysticalGarden"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "prospector",
+							"type" : "hota.wastelandterrain:prospector"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "colosseumOfTheMagi",
+							"type" : "hota.mapobjects:colosseumOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 9500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "wolfRaiderPicket",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 6500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 6500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "experimentalShop",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 6500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "redTower",
+							"type" : "core:creatureBank"	
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 9500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "dragonFlyHive",
+							"type" : "core:creatureBank"	
+						}
+					]
+				},
+				"forcedLevel" : "surface",
+				"mines" : {
+					"crystal" : 1,
+					"gems" : 1,
+					"gold" : 0,
+					"mercury" : 1,
+					"ore" : 2,
+					"sulfur" : 1,
+					"wood" : 2
+				},
+				"monsters" : "weak",
+				"owner" : 1,
+				// Player 1 (red)
+				"allowedTowns" : ["dungeon"],
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"size" : 20,
+				"townsAreSameType" : true,
+				"treasure" : [
+					{
+						"density" : 1,
+						"max" : 12000,
+						"min" : 6500
+					},
+					{
+						"density" : 6,
+						"max" : 6500,
+						"min" : 3500
+					},
+					{
+						"density" : 12,
+						"max" : 3500
+					}
+				],
+				"type" : "playerStart",
+				"visiblePositionX" : -190,
+				"visiblePositionY" : -380,
+				"visibleSize" : 1
+			},
+			"8" : {
+				// Player 2 (blue)
+				"allowedTowns" : ["hota.cove:cove"],
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 2,
+				"size" : 20,
+				"townsAreSameType" : true,
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : -330,
+				"visiblePositionY" : -200,
+				"visibleSize" : 1
+			},
+			"9" : {
+				// Player 3 (tan)
+				"allowedTowns" : ["necropolis"],
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"customObjectsLikeZone" : 7,
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 7,
+				"monsters" : "weak",
+				"owner" : 3,
+				"size" : 20,
+				"townsAreSameType" : true,
+				"treasureLikeZone" : 7,
+				"type" : "playerStart",
+				"visiblePositionX" : -310,
+				"visiblePositionY" : 430,
+				"visibleSize" : 1
+			}
+		}
+	}
+}

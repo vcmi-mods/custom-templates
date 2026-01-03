@@ -4,13 +4,14 @@
     "author" : "Various",
     "contact" : "https://discord.gg/tx2wXtZp",
     "modType" : "Templates",	
-	"version" : "1.0.0",
+	"version" : "1.0.1",
  	"compatibility" :
 	{
-		"min" : "1.5.6"
+		"min" : "1.7.0"
 	},
     "changelog" :
     {
-        "1.0"    : [ "Initial release with 2 Ash templates"]
+        "1.0.1"    : [ "Added TwoTownsUGConnectionsFFA template by Karyoplasma"],
+		"1.0.0"    : [ "Initial release with 2 Ash templates"]
     }
 }

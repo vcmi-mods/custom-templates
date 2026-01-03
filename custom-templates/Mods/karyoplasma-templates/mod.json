@@ -1,0 +1,26 @@
+{
+	"name" : "Karyoplasma templates",
+	"description" : "It's meant to be an ffa or 2v2v2v2 template played with hota, but should function without it. xl+u or h+u (i usually go custom size around 160x160x2), 8 players all start above ground and have a neutral town of their faction and a connection to an underground zone (easy break, rushing allowed) that they share with a neighbor, so 4 underground connectors total. starting zones are rich in resources, but poor in good objects, maybe you get a cons or hive if you're lucky, they have a guaranteed university.\nConnectors have more frequent creature banks that give creature rewards, so you can either rush your enemies or go into the huge middle zone (2 zones with a wide border) where lots of artifacts and in total 4 neutral castles are. the neutral towns cannot be of the faction of any player. there should also be many stat-boosters there, so you can grow a big hero. there are 2 unconnected portals or underground gates in the middle that lead to an underground treasure zone. the main purpose is so that it limits the size of the connectors, but it's also an additional treasure zone with strong guards, lots of artifacts and banks and some mines.\n I ban all spells that i think are op (fly, dd, berserk for example) and some spells that i think are trash (like magic mirror or disguise), also gamebreaking artifacts like angel wings or red orb are banned. i also ban some secondaries i hate like learning/eagle eye/scholar, but you can just remove that anyway.\nIt's just meant to be one big bash, either early skirmishes or late game clashes.",
+	"author" : "Karyoplasma",
+	"contact" : "Karyoplasma on vcmi-discord",
+	"modType" : "Templates",
+	"version" : "1.0.0",
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+	"keepDisabled" : false,
+	"depends" :
+	[
+		"hota.mapobjects",
+		"hota.wastelandterrain"
+	],	
+	"templates" :
+	[
+		"TwoTownsUGConnectionsFFA.json"
+	],
+	"changelog" :
+	{
+		"1.0" : [ "Initial release"],
+	}
+}
