@@ -1,0 +1,52 @@
+{
+    "name" : "LSZLG Templates",
+
+    "description" : "A vast, two-level continent designed for 8 warring factions. Players begin in sheltered but resource-poor starting zones, forcing early exploration into a ring of richer, guarded territories. As empires grow, they must delve underground and push towards a fiercely contested central nexus, where the greatest treasures and deadliest guardians await. Victory demands a balance of rapid expansion and strategic conquest.",
+    "depends" : ["newtown-terrains.spoiledLand","hota.mapDecorations","newtown-terrains.deadlandTerrain"],
+    "author" : "LastSpy",
+
+    "contact" : "LastSpy",
+
+    "modType" : "Templates",
+    
+    "templates" : 
+	[ 
+ 	    "21_LSZLG.JSON",
+	    "50_LSZLG.JSON",
+		"26_LSZLG.JSON"
+	],
+	
+	"version" : "1.1.1",
+ 
+    "changelog" :
+    {
+		"1.1"  : [ "Renamed mod to LSZLG Templates"],
+		"1.0.5"  : [ "* Fixed compatibility issue with 1.7.2",
+					 "* Fix 21_ loading error" ],
+		"1.0.4"  : [ "Fixed problem when pink abandon the geme in day 1",
+					 "Fixed Size problem for RMG"],
+		"1.0.3"	 : [ "Fixed a minor bug in 50_LSZLG.json",
+					 "Changed treasure density by 10% on 50_LSZLG.json" ],
+		"1.0.2"	 : [ "* Old map is now 21_",
+					 "Map 50_ added",
+					 "* [EXPERIMENTAL] 50_ Can create 504x504x2"],
+		"1.0.1"  : [ "Added 50_LSZLG_test for testing unstable RMG"],
+        "1.0"    : [ "initial release"]
+    },
+
+	"compatibility" :
+	{
+		"min" : "1.7.0"
+	},
+	
+    "keepDisabled" : false,
+    
+	"chinese" : {
+    	"name" : "LSZLG 模板",
+    	"description" : "一个广阔的双层大陆，专为8个交战派系设计。玩家从受保护但资源贫乏的起始区域开始，迫使他们早期探索一圈更丰富、受保护的领土。随着帝国的发展，他们必须深入地下，向激烈争夺的中央枢纽推进，在那里等待着最丰富的宝藏和最致命的守护者。胜利需要快速扩张与战略征服之间的平衡。"
+    },
+	"russian" : {
+		"name" : "LSZLG Шаблоны",
+		"description" : "Обширный двухуровневый континент, разработанный для 8 враждующих фракций. Игроки начинают в защищенных, но бедных ресурсами стартовых зонах, что вынуждает их к раннему исследованию кольца более богатых, охраняемых территорий. По мере роста империй им приходится спускаться под землю и продвигаться к ожесточенно оспариваемому центральному узлу, где их ждут величайшие сокровища и самые смертоносные стражи. Победа требует баланса между быстрым расширением и стратегическим завоеванием."
+	}
+}
