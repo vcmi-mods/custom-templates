@@ -15,11 +15,12 @@
 	    "50_LSZLG.JSON",
 		"26_LSZLG.JSON"
 	],
-	
-	"version" : "1.1.1",
- 
+
+	"version" : "1.1.2",
+
     "changelog" :
     {
+		"1.1.2"  : [ "Fixed some incorrect generation settings in 50_LSZLG.json" ],
 		"1.1"  : [ "Renamed mod to LSZLG Templates"],
 		"1.0.5"  : [ "* Fixed compatibility issue with 1.7.2",
 					 "* Fix 21_ loading error" ],
