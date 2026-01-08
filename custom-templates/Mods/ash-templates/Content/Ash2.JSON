@@ -23,18 +23,20 @@
                 "townsAreSameType" : true,
 				"mines" : { "wood" : 1, "ore" : 1, "gold" : 1 },
 			    "customObjects" : {
-			           "bannedObjects" : ["core:object.prison.prison"],
+			           "bannedObjects" : {"prison":true},
 					   "bannedCategories" : ["spellScroll"],
 					   "commonObjects":
                             [
-                                {
-                                 "id" : "core:object.witchHut.witchHut",
-                                 "rmg" : {
+
+							{
+							"type" : "witchHut",
+							"subtype" : "witchHut",
+							"rmg" : {
                                  "value"     : 543,
                                  "rarity"    : 50,
                                  "zoneLimit" : 10
-                                         }
-                                }
+									}
+							}
                             ]
 				                 },
 				"treasure" :
@@ -171,18 +173,20 @@
 				"customObjects" : 
 				{
 		                "bannedCategories" : ["spellScroll", "dwelling", "creatureBank", "resource"],          
-			            "allowedObjects" : ["core:object.dragonUtopia.dragonUtopia"],
-				        "bannedObjects" : ["core:object.prison.prison"],          
+			            
+				        "bannedObjects" : {"prison":true},          
                         "commonObjects":
                             [
-                                {
-                                 "id" : "core:object.dragonUtopia.dragonUtopia",
-                                 "rmg" : {
+							{
+							"type":"dragonUtopia",
+							"subtype":"dragonUtopia",
+							"rmg" : {
                                  "value"     : 10000,
                                  "rarity"    : 500,
                                  "zoneLimit" : 15
-                                         }
-                                }
+									}
+							}
+                                
                             ]
                 },
 				"treasure" :
