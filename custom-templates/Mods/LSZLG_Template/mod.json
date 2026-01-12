@@ -1,36 +1,43 @@
 {
     "name" : "LSZLG Templates",
 
-    "description" : "A vast, two-level continent designed for 8 warring factions. Players begin in sheltered but resource-poor starting zones, forcing early exploration into a ring of richer, guarded territories. As empires grow, they must delve underground and push towards a fiercely contested central nexus, where the greatest treasures and deadliest guardians await. Victory demands a balance of rapid expansion and strategic conquest.",
-    "depends" : ["newtown-terrains.spoiledLand","hota.mapDecorations","newtown-terrains.deadlandTerrain"],
+    "description" : " <h1 style='color:#002366; font-size:28px; font-weight:bold;'>LSZLG Map Templates Collection</h1><p style='font-size:16px; color:#333333; font-style:italic;'>A comprehensive collection of map templates for <i>VCMI</i>, offering diverse gameplay experiences with different sizes, levels, and configurations. Each template is carefully designed to provide unique strategic challenges and adventures.</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Template Overview</p> <p style='font-size:16px; color:#333333;'>This collection includes seven distinct templates, each with unique characteristics, sizes, and gameplay mechanics. Choose the template that best fits your preferred playstyle and game duration.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>21_LSZLG: Balanced Adventure</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> XL+U to G+U, <b>Levels:</b> Surface + Underground, <b>Players:</b> 2-8 (1-8 human)<br/>Features 21 zones with player start zones on surface and treasure zones distributed across surface and underground levels. Has junction zones connecting to a central fortress. Includes bans on Pandora's Boxes and specific objects like Dragon Utopia, Seer Huts, and Random Artifact Relics.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>26_LSZLG: Compact Challenge</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> 144x144x2 to 180x180x2, <b>Levels:</b> Surface + Underground, <b>Players:</b> 1-8 (all human)<br/>Features 26 zones with player start zones on surface and treasure zones distributed across surface and underground levels. Forced level set to 'automatic' for start zones. Underground levels contain junction zones with high-value treasures.</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>45_LSZLG: Three-Level Expedition</p> <p style='font-size:16px; color:#333333;'><b>Size:</b> 252x252x3, <b>Levels:</b> 3 levels, <b>Players:</b> 1-8 (all human)<br/>Features 45 zones with player start zones on surface and treasure zones distributed across all 3 levels. Surface zones have weaker monsters, underground zones have stronger monsters. No forced levels on start zones.</p> <p style='font-size:16px; color:#333333;'>Painstakingly balanced and polished, <i>LSZLG Templates</i> have been crafted with an unwavering commitment to quality. Each template offers carefully refined mechanics and a host of improvements for both new players and seasoned veterans.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>49_LSZLG: Restricted Strategy</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> 252x252x3, <b>Levels:</b> 3 levels, <b>Players:</b> 1-8 (all human)<br/>Features 49 zones with player start zones forced to surface level. Contains extensive spell and artifact bans including flight, teleportation, and spell-related items. Hero category is banned in start zones.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>50_LSZLG: Extra Large Scale</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> 252x252x2 to 324x324x2, <b>Levels:</b> Surface + Underground, <b>Players:</b> 1-8 (all human)<br/>Features 50 zones with player start zones forced to surface level. Surface and underground levels have different treasure and monster distributions. Contains bans on Pandora's Boxes and specific objects.</p> <h1 style='font-size:22px; color:#002366; font-weight:bold;'>55_LSZLG: Maximum Complexity</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> 324x324x5 (largest in collection), <b>Levels:</b> 5 levels, <b>Players:</b> 1-8 (all human)<br/>Features 55 zones across 5 levels with no forced levels. Player start zones ban dragon utopias to prevent conversion to treasure zones. Designed for maximum complexity and longest gameplay.</p><h1 style='font-size:22px; color:#002366; font-weight:bold;'>95_LSZLG: Ultimate Challenge</h1> <p style='font-size:16px; color:#333333;'><b>Size:</b> 324x324x5, <b>Levels:</b> 5 levels, <b>Players:</b> 1-8 (all human)<br/>Features 95 zones across 5 levels with no forced levels. Player start zones ban dragon utopias to prevent conversion to treasure zones. Designed for ultimate complexity and longest gameplay with maximum number of zones.</p>",
+
+    "depends" : ["hota.mapDecorations"],
     "author" : "LastSpy",
 
     "contact" : "LastSpy",
 
     "modType" : "Templates",
-    
-    "templates" : 
-	[ 
+
+    "templates" :
+	[
  	    "21_LSZLG.JSON",
-	    "50_LSZLG.JSON",
 	    "26_LSZLG.JSON",
-	    "45_LSZLG.JSON"
+	    "45_LSZLG.JSON",
+	    "49_LSZLG.JSON",
+	    "50_LSZLG.JSON",
+	    "55_LSZLG.JSON",
+	    "95_LSZLG.JSON"
 	],
 
-	"version" : "1.1.2",
+	"version" : "1.1.4",
 
     "changelog" :
     {
-		"1.1.3"	 : [ " Added 45_LSZLG.json",
+		"1.1.4"  : [ " Added 49_LSZLG",
+			     " Added 55_LSZLG",
+			     " Added 95_LSZLG"],
+		"1.1.3"	 : [ " Added 45_LSZLG",
 				"* [EXPERIMENTAL] 45_ can create 3 level"],
-		"1.1.2"  : [ "Fixed some incorrect generation settings in 50_LSZLG.json" ],
+		"1.1.2"  : [ "Fixed some incorrect generation settings in 50_LSZLG" ],
 		"1.1"  : [ "Renamed mod to LSZLG Templates"],
 		"1.0.5"  : [ "* Fixed compatibility issue with 1.7.2",
 					 "* Fix 21_ loading error" ],
 		"1.0.4"  : [ "Fixed problem when pink abandon the geme in day 1",
 					 "Fixed Size problem for RMG"],
-		"1.0.3"	 : [ "Fixed a minor bug in 50_LSZLG.json",
-					 "Changed treasure density by 10% on 50_LSZLG.json" ],
+		"1.0.3"	 : [ "Fixed a minor bug in 50_LSZLG",
+					 "Changed treasure density by 10% on 50_LSZLG" ],
 		"1.0.2"	 : [ "* Old map is now 21_",
 					 "Map 50_ added",
 					 "* [EXPERIMENTAL] 50_ Can create 504x504x2"],
@@ -42,15 +49,15 @@
 	{
 		"min" : "1.7.0"
 	},
-	
+
     "keepDisabled" : false,
-    
+
 	"chinese" : {
     	"name" : "LSZLG 模板",
-    	"description" : "一个广阔的双层大陆，专为8个交战派系设计。玩家从受保护但资源贫乏的起始区域开始，迫使他们早期探索一圈更丰富、受保护的领土。随着帝国的发展，他们必须深入地下，向激烈争夺的中央枢纽推进，在那里等待着最丰富的宝藏和最致命的守护者。胜利需要快速扩张与战略征服之间的平衡。"
+    	"description" : " <h1 style='color:#002366; font-size:28px; font-weight:bold;'>LSZLG 地图模板合集</h1><p style='font-size:16px; color:#333333; font-style:italic;'>一个全面的地图模板合集，为 <i>VCMI</i> 提供不同尺寸、等级和配置的多样化游戏体验。每个模板都经过精心设计，提供独特的战略挑战和冒险。</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>模板概览</p> <p style='font-size:16px; color:#333333;'>这个合集包括六个不同的模板，每个都有独特的特点、尺寸和游戏机制。选择最适合您偏好的游戏风格和时长的模板。</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>21_LSZLG: 平衡冒险</h1> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> XL+U to G+U, <b>等级:</b> 地面 + 地下, <b>玩家:</b> 2-8 (1-8 人类)<br/>包含21个区域，玩家起始区域在地面上，宝藏区域分布在地面和地下等级。有连接到中央要塞的枢纽区域。禁止潘多拉魔盒和特定物品如龙乌托邦、先知小屋和随机神器遗物。</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>26_LSZLG: 紧凑挑战</h1> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> 144x144x2 to 180x180x2, <b>等级:</b> 地面 + 地下, <b>玩家:</b> 1-8 (全部人类)<br/>包含26个区域，玩家起始区域在地面上，宝藏区域分布在地面和地下等级。起始区域强制等级设置为'自动'。地下等级包含有高价值宝藏的枢纽区域。</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>45_LSZLG: 三级探险</p> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> 252x252x3, <b>等级:</b> 3级, <b>玩家:</b> 1-8 (全部人类)<br/>包含45个区域，玩家起始区域在地面上，宝藏区域分布在所有3个等级。地面区域怪物较弱，地下区域怪物较强。起始区域没有强制等级。</p> <p style='font-size:16px; color:#333333;'>精心平衡和打磨，<i>LSZLG 模板</i> 以不懈的质量承诺打造。每个模板都提供精心改进的机制和丰富的改进，适合新玩家和资深玩家。</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>49_LSZLG: 限制策略</h1> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> 252x252x3, <b>等级:</b> 3级, <b>玩家:</b> 1-8 (全部人类)<br/>包含49个区域，玩家起始区域强制在地面上。包含广泛的法术和物品禁令，包括飞行、传送和法术相关物品。英雄类别在起始区域被禁止。</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>50_LSZLG: 超大尺度</h1> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> 252x252x2 to 324x324x2, <b>等级:</b> 地面 + 地下, <b>玩家:</b> 1-8 (全部人类)<br/>包含50个区域，玩家起始区域强制在地面上。地面和地下等级有不同的宝藏和怪物分布。禁止潘多拉魔盒和特定物品。</p> <h1 style='font-size:22px; color:#002366; font-weight:bold;'>55_LSZLG: 最大复杂度</h1> <p style='font-size:16px; color:#333333;'><b>尺寸:</b> 324x324x5 (合集中最大), <b>等级:</b> 5级, <b>玩家:</b> 1-8 (全部人类)<br/>包含55个区域，跨越5个等级，没有强制等级。玩家起始区域禁止龙乌托邦，以防止转换为宝藏区域。为最大复杂ности и最长游戏时间而设计。</p>"
     },
 	"russian" : {
 		"name" : "LSZLG Шаблоны",
-		"description" : "Обширный двухуровневый континент, разработанный для 8 враждующих фракций. Игроки начинают в защищенных, но бедных ресурсами стартовых зонах, что вынуждает их к раннему исследованию кольца более богатых, охраняемых территорий. По мере роста империй им приходится спускаться под землю и продвигаться к ожесточенно оспариваемому центральному узлу, где их ждут величайшие сокровища и самые смертоносные стражи. Победа требует баланса между быстрым расширением и стратегическим завоеванием."
+		"description" : " <h1 style='color:#002366; font-size:28px; font-weight:bold;'>Коллекция шаблонов LSZLG</h1><p style='font-size:16px; color:#333333; font-style:italic;'>Комплексная коллекция шаблонов карт для <i>VCMI</i>, предлагающая разнообразный игровой опыт с различными размерами, уровнями и конфигурациями. Каждый шаблон тщательно разработан, чтобы обеспечить уникальные стратегические вызовы и приключения.</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>Обзор шаблонов</p> <p style='font-size:16px; color:#333333;'>Эта коллекция включает шесть различных шаблонов, каждый из которых имеет уникальные характеристики, размеры и игровые механики. Выберите шаблон, который лучше всего соответствует вашему предпочтительному стилю игры и продолжительности.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>21_LSZLG: Сбалансированное приключение</h1> <p style='font-size:16px; color:#333333;'><b>Размер:</b> XL+U to G+U, <b>Уровни:</b> Поверхность + Подземелье, <b>Игроки:</b> 2-8 (1-8 человек)<br/>Включает 21 зону с зонами старта игроков на поверхности и сокровищными зонами, распределенными по поверхностным и подземным уровням. Имеет соединительные зоны, ведущие к центральной крепости. Включает запреты на ящики Пандоры и определенные объекты, такие как Утопия драконов, Хижины провидца и Случайные артефакты-реликвии.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>26_LSZLG: Компактный вызов</h1> <p style='font-size:16px; color:#333333;'><b>Размер:</b> 144x144x2 to 180x180x2, <b>Уровни:</b> Поверхность + Подземелье, <b>Игроки:</b> 1-8 (все люди)<br/>Включает 26 зон с зонами старта игроков на поверхности и сокровищными зонами, распределенными по поверхностным и подземным уровням. Уровень принудительно установлен на 'автоматический' для стартовых зон. Подземные уровни содержат соединительные зоны с ценными сокровищами.</p> <p style='font-size:22px; color:#002366; font-weight:bold;'>45_LSZLG: Трехуровневая экспедиция</p> <p style='font-size:16px; color:#333333;'><b>Размер:</b> 252x252x3, <b>Уровни:</b> 3 уровня, <b>Игроки:</b> 1-8 (все люди)<br/>Включает 45 зон с зонами старта игроков на поверхности и сокровищными зонами, распределенными по всем 3 уровням. Поверхностные зоны имеют слабых монстров, подземные зоны - сильных монстров. Нет принудительных уровней для стартовых зон.</p> <p style='font-size:16px; color:#333333;'>Тщательно сбалансированные и отполированные, <i>Шаблоны LSZLG</i> были созданы с непоколебимой приверженностью качеству. Каждый шаблон предлагает тщательно отработанные механики и множество улучшений как для новых игроков, так и для опытных ветеранов.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>49_LSZLG: Ограниченная стратегия</h1> <p style='font-size:16px; color:#333333;'><b>Размер:</b> 252x252x3, <b>Уровни:</b> 3 уровня, <b>Игроки:</b> 1-8 (все люди)<br/>Включает 49 зон с зонами старта игроков, принудительно установленными на поверхности. Содержит обширные запреты на заклинания и артефакты, включая полет, телепортацию и заклинания. Категория героев запрещена в стартовых зонах.</p><h1 style='color:#002366; font-size:22px; font-weight:bold;'>50_LSZLG: Сверхбольшой масштаб</h1> <p style='font-size:16px; color:#333333;'><b>Размер:</b> 252x252x2 to 324x324x2, <b>Уровни:</b> Поверхность + Подземелье, <b>Игроки:</b> 1-8 (все люди)<br/>Включает 50 зон с зонами старта игроков, принудительно установленными на поверхности. Поверхностные и подземные уровни имеют различное распределение сокровищ и монстров. Содержит запреты на ящики Пандоры и определенные объекты.</p> <h1 style='font-size:22px; color:#002366; font-weight:bold;'>55_LSZLG: Максимальная сложность</h1> <p style='font-size:16px; color:#333333;'><b>Размер:</b> 324x324x5 (самый большой в коллекции), <b>Уровни:</b> 5 уровней, <b>Игроки:</b> 1-8 (все люди)<br/>Включает 55 зон на 5 уровнях без принудительных уровней. В стартовых зонах игроков запрещена утопия драконов, чтобы предотвратить превращение их в сокровищницы. Создан для максимальной сложности и самой долгой игры.</p>"
 	}
 }
