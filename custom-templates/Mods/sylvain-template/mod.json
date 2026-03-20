@@ -1,0 +1,12 @@
+{
+	"name" : "Sylvain's template : Cross Counter",
+	"description" : "Spin on the Jebus cross format, this one aims to balance offensive and defensive play by placing neutral towns behind guardians : either take a risky approach and go straight for the center, or be more progressive and secure your neutral town first for more resources. Units and layout remains the same in each map size, but treasure density is personalised. Also, more mines are added starting XL, a second starting town is given starting H, and a second neutral town too for XH",
+	"author" : "Sylvain",
+	"contact" : "Hop on VCMI Discord, you'll find me there",
+	"version" : "1.0",
+	"modType" : "Templates",
+	"templates" :
+	[
+		"crosscounter.json"
+	]
+}
