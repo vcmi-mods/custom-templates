@@ -4,13 +4,15 @@
     "author" : "Various",
     "contact" : "https://discord.gg/tx2wXtZp",
     "modType" : "Templates",	
-	"version" : "1.0.6",
+	"version" : "1.0.7",
  	"compatibility" :
 	{
 		"min" : "1.7.0"
 	},
     "changelog" :
     {
+		"1.0.7"	   : [ "LSZLG updated to 1.1.7: fixed templates that never finished generating",
+					   "LSZLG: 200_LSZLG_324x5 and 200_LSZLG_504x4 renamed to _324x3 and _504x3" ],
 		"1.0.6"	   : [ "Added 4 new Template in LSZLG"],
 		"1.0.5"	   : [ "Added 3 new Template in LSZLG"],
 		"1.0.4"    : [ "Fix for Ash's templates"],
