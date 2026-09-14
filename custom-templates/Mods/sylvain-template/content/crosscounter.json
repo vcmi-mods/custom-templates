@@ -15,7 +15,7 @@
 				"playerTowns" : { "castles" : 1 },
 				"mines" : {"wood" : 2, "ore" : 2},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 12},
+						{"min" : 3500, "max": 4400, "density" : 12},
 						{"min" : 5000, "max": 6000, "density" : 7},
 						{"min" : 7500, "max": 8000, "density" : 2}
 						]
@@ -97,28 +97,28 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 12},
-						{"min" : 11600, "max": 12400, "density" : 3},
-						{"min" : 19600, "max": 26000, "density" : 12},
-						{"min" : 35000, "max": 40000, "density" : 4}
+						{"min" : 10600, "max": 12400, "density" : 3},
+						{"min" : 18600, "max": 24000, "density" : 12},
+						{"min" : 30000, "max": 35000, "density" : 4}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	},
-	"Cross Counter - size M" :
+	"Cross Counter - size S+u" :
 	{
-		"minSize" : "m", 
-		"maxSize" : "m",
+		"minSize" : "s+u", 
+		"maxSize" : "s+u",
 		"players" : "2-4",
 		"zones" :
 		{
@@ -131,7 +131,7 @@
 				"playerTowns" : { "castles" : 1 },
 				"mines" : {"wood" : 2, "ore" : 2},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 15},
+						{"min" : 3500, "max": 4400, "density" : 15},
 						{"min" : 5000, "max": 6000, "density" : 10},
 						{"min" : 7500, "max": 8000, "density" : 2}
 						]
@@ -213,28 +213,28 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 12},
-						{"min" : 11600, "max": 12400, "density" : 6},
-						{"min" : 19600, "max": 26000, "density" : 15},
-						{"min" : 35000, "max": 40000, "density" : 6}
+						{"min" : 10600, "max": 12400, "density" : 6},
+						{"min" : 18600, "max": 24000, "density" : 15},
+						{"min" : 30000, "max": 35000, "density" : 6}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	},
-	"Cross Counter - size L" :
+	"Cross Counter - size M" :
 	{
-		"minSize" : "l", 
-		"maxSize" : "l",
+		"minSize" : "m", 
+		"maxSize" : "m",
 		"players" : "2-4",
 		"zones" :
 		{
@@ -247,7 +247,123 @@
 				"playerTowns" : { "castles" : 1 },
 				"mines" : {"wood" : 2, "ore" : 2},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 22},
+						{"min" : 3500, "max": 4400, "density" : 15},
+						{"min" : 5000, "max": 6000, "density" : 10},
+						{"min" : 7500, "max": 8000, "density" : 2}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 1 },
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"mines" : { "gold": 2, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 5},
+						{"min" : 5500, "max": 6500, "density" : 17},
+						{"min" : 7600, "max": 8200, "density" : 7}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 12},
+						{"min" : 10600, "max": 12400, "density" : 6},
+						{"min" : 18600, "max": 24000, "density" : 15},
+						{"min" : 30000, "max": 35000, "density" : 6}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size M+u" :
+	{
+		"minSize" : "m+u", 
+		"maxSize" : "m+u",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"mines" : {"wood" : 2, "ore" : 2},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 22},
 						{"min" : 5000, "max": 6000, "density" : 15},
 						{"min" : 7500, "max": 8000, "density" : 3}
 						]
@@ -329,28 +445,144 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 17},
-						{"min" : 11600, "max": 12400, "density" : 10},
-						{"min" : 19600, "max": 26000, "density" : 17},
-						{"min" : 35000, "max": 40000, "density" : 6}
+						{"min" : 10600, "max": 12400, "density" : 10},
+						{"min" : 18600, "max": 24000, "density" : 17},
+						{"min" : 30000, "max": 35000, "density" : 6}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	},
-	"Cross Counter - size XL" :
+	"Cross Counter - size L" :
 	{
-		"minSize" : "xl", 
-		"maxSize" : "xl",
+		"minSize" : "l", 
+		"maxSize" : "l",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"mines" : {"wood" : 2, "ore" : 2},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 22},
+						{"min" : 5000, "max": 6000, "density" : 15},
+						{"min" : 7500, "max": 8000, "density" : 3}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 1 },
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"mines" : { "gold": 2, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 7},
+						{"min" : 5500, "max": 6500, "density" : 23},
+						{"min" : 7600, "max": 8200, "density" : 10}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 17},
+						{"min" : 10600, "max": 12400, "density" : 10},
+						{"min" : 18600, "max": 24000, "density" : 17},
+						{"min" : 30000, "max": 35000, "density" : 6}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size L+u" :
+	{
+		"minSize" : "l+u", 
+		"maxSize" : "l+u",
 		"players" : "2-4",
 		"zones" :
 		{
@@ -363,7 +595,7 @@
 				"playerTowns" : { "castles" : 1 },
 				"mines" : {"wood" : 3, "ore" : 3},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 33},
+						{"min" : 3500, "max": 4400, "density" : 33},
 						{"min" : 5000, "max": 6000, "density" : 22},
 						{"min" : 7500, "max": 8000, "density" : 5}
 						]
@@ -445,28 +677,144 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 10},
-						{"min" : 11600, "max": 12400, "density" : 11},
-						{"min" : 19600, "max": 26000, "density" : 33},
-						{"min" : 35000, "max": 40000, "density" : 11}
+						{"min" : 10600, "max": 12400, "density" : 11},
+						{"min" : 18600, "max": 24000, "density" : 33},
+						{"min" : 30000, "max": 35000, "density" : 11}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	},
-	"Cross Counter - size H" :
+	"Cross Counter - size XL" :
 	{
-		"minSize" : "h", 
-		"maxSize" : "h",
+		"minSize" : "xl", 
+		"maxSize" : "xl",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"mines" : {"wood" : 3, "ore" : 3},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 33},
+						{"min" : 5000, "max": 6000, "density" : 22},
+						{"min" : 7500, "max": 8000, "density" : 5}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 1 },
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 1 },
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"mines" : { "gold": 2, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 11},
+						{"min" : 5500, "max": 6500, "density" : 33},
+						{"min" : 7600, "max": 8200, "density" : 16}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 10},
+						{"min" : 10600, "max": 12400, "density" : 11},
+						{"min" : 18600, "max": 24000, "density" : 33},
+						{"min" : 30000, "max": 35000, "density" : 11}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size XL+u" :
+	{
+		"minSize" : "xl+u", 
+		"maxSize" : "xl+u",
 		"players" : "2-4",
 		"zones" :
 		{
@@ -480,7 +828,7 @@
 				"townsAreSameType" : true,
 				"mines" : {"wood" : 2, "ore" : 2},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 42},
+						{"min" : 3500, "max": 4400, "density" : 42},
 						{"min" : 5000, "max": 6000, "density" : 26},
 						{"min" : 7500, "max": 8000, "density" : 10}
 						]
@@ -567,28 +915,150 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 22},
-						{"min" : 11600, "max": 12400, "density" : 22},
-						{"min" : 19600, "max": 26000, "density" : 40},
-						{"min" : 35000, "max": 40000, "density" : 22}
+						{"min" : 10600, "max": 12400, "density" : 22},
+						{"min" : 18600, "max": 24000, "density" : 40},
+						{"min" : 30000, "max": 35000, "density" : 22}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	},
-	"Cross Counter - size XH" :
+	"Cross Counter - size H" :
 	{
-		"minSize" : "xh", 
-		"maxSize" : "xh",
+		"minSize" : "h", 
+		"maxSize" : "h",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 2, "ore" : 2},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 42},
+						{"min" : 5000, "max": 6000, "density" : 26},
+						{"min" : 7500, "max": 8000, "density" : 10}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 2 },
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"townsAreSameType" : true,
+				"mines" : { "gold": 2, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 8},
+						{"min" : 3000, "max": 3500, "density" : 30},
+						{"min" : 5500, "max": 6500, "density" : 30},
+						{"min" : 7600, "max": 8200, "density" : 20}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 1 },
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 22},
+						{"min" : 10600, "max": 12400, "density" : 22},
+						{"min" : 18600, "max": 24000, "density" : 40},
+						{"min" : 30000, "max": 35000, "density" : 22}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size H+u" :
+	{
+		"minSize" : "h+u", 
+		"maxSize" : "h+u",
 		"players" : "2-4",
 		"zones" :
 		{
@@ -602,7 +1072,7 @@
 				"townsAreSameType" : true,
 				"mines" : {"wood" : 3, "ore" : 3},
 				"treasure" :	[
-						{"min" : 3600, "max": 4500, "density" : 67},
+						{"min" : 3500, "max": 4400, "density" : 67},
 						{"min" : 5000, "max": 6000, "density" : 45},
 						{"min" : 7500, "max": 8000, "density" : 12}
 						]
@@ -692,22 +1162,272 @@
 				"monsters" : "strong",
 				"treasure" :	[
 						{"min" : 3000, "max": 3500, "density" : 25},
-						{"min" : 11600, "max": 12400, "density" : 22},
-						{"min" : 19600, "max": 26000, "density" : 45},
-						{"min" : 35000, "max": 40000, "density" : 23}
+						{"min" : 10600, "max": 12400, "density" : 22},
+						{"min" : 18600, "max": 24000, "density" : 45},
+						{"min" : 30000, "max": 35000, "density" : 23}
 						]
 			}
 		},
 		"connections" :
 			[
-			{ "a" : "1", "b" : "9", "guard" : 26000 },
-			{ "a" : "2", "b" : "9", "guard" : 26000 },
-			{ "a" : "3", "b" : "9", "guard" : 26000 },
-			{ "a" : "4", "b" : "9", "guard" : 26000 },
-			{ "a" : "1", "b" : "5", "guard" : 13000 },
-			{ "a" : "2", "b" : "6", "guard" : 13000 },
-			{ "a" : "3", "b" : "7", "guard" : 13000 },
-			{ "a" : "4", "b" : "8", "guard" : 13000 }
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size XH" :
+	{
+		"minSize" : "xh", 
+		"maxSize" : "xh",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 3, "ore" : 3},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 67},
+						{"min" : 5000, "max": 6000, "density" : 45},
+						{"min" : 7500, "max": 8000, "density" : 12}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 1, "ore" : 1, "gold": 3, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 15},
+						{"min" : 3000, "max": 3500, "density" : 40},
+						{"min" : 5500, "max": 6500, "density" : 40},
+						{"min" : 7600, "max": 8200, "density" : 30}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 25},
+						{"min" : 10600, "max": 12400, "density" : 22},
+						{"min" : 18600, "max": 24000, "density" : 45},
+						{"min" : 30000, "max": 35000, "density" : 23}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
+			]
+	},
+	"Cross Counter - size XH+u" :
+	{
+		"minSize" : "xh+u", 
+		"maxSize" : "xh+u",
+		"players" : "2-4",
+		"zones" :
+		{
+			"1":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 1,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 3, "ore" : 3},
+				"treasure" :	[
+						{"min" : 3500, "max": 4400, "density" : 80},
+						{"min" : 5000, "max": 6000, "density" : 52},
+						{"min" : 7500, "max": 8000, "density" : 15}
+						]
+			},
+			"2":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 2,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 15,
+				"owner" : 3,
+				"monsters" : "normal",
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"4":
+			{
+				"type" : "playerStart", 
+				"size" : 15, 
+				"owner" : 4,
+				"playerTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"mines" : {"wood" : 1, "ore" : 1, "gold": 3, "gems" : 2, "crystal" : 2, "sulfur" : 2, "mercury" : 2},
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 18},
+						{"min" : 3000, "max": 3500, "density" : 50},
+						{"min" : 5500, "max": 6500, "density" : 50},
+						{"min" : 7600, "max": 8200, "density" : 36}
+						]
+			},
+			"6" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 10,
+				"monsters" : "normal",
+				"neutralTowns" : { "castles" : 2 },
+				"townsAreSameType" : true,
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"monsters" : "strong",
+				"treasure" :	[
+						{"min" : 3000, "max": 3500, "density" : 30},
+						{"min" : 10600, "max": 12400, "density" : 25},
+						{"min" : 18600, "max": 24000, "density" : 52},
+						{"min" : 30000, "max": 35000, "density" : 27}
+						]
+			}
+		},
+		"connections" :
+			[
+			{ "a" : "1", "b" : "9", "guard" : 25000 },
+			{ "a" : "2", "b" : "9", "guard" : 25000 },
+			{ "a" : "3", "b" : "9", "guard" : 25000 },
+			{ "a" : "4", "b" : "9", "guard" : 25000 },
+			{ "a" : "1", "b" : "5", "guard" : 10000 },
+			{ "a" : "2", "b" : "6", "guard" : 10000 },
+			{ "a" : "3", "b" : "7", "guard" : 10000 },
+			{ "a" : "4", "b" : "8", "guard" : 10000 }
 			]
 	}
 }
