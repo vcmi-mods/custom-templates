@@ -1,0 +1,567 @@
+{
+  "core:monolithTwoWay": {
+    "types": {
+      "domainFinalGate": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate01": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate02": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate03": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate04": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate05": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate06": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate07": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate08": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate09": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate10": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate11": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate12": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate13": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate14": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate15": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate16": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate17": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate18": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate19": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate20": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate21": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate22": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate23": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate24": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate25": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate26": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate27": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate28": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate29": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate30": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate31": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      },
+      "domainNetworkGate32": {
+        "name": "世界界门",
+        "templates": {
+          "default": {
+            "animation": "AVXmn2g0",
+            "mask": [
+              "VV",
+              "VA"
+            ],
+            "visitableFrom": [
+              "---",
+              "+-+",
+              "+++"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

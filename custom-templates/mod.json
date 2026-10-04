@@ -4,13 +4,14 @@
     "author" : "Various",
     "contact" : "https://discord.gg/tx2wXtZp",
     "modType" : "Templates",	
-	"version" : "1.0.7",
+	"version" : "1.0.8",
  	"compatibility" :
 	{
-		"min" : "1.7.0"
+		"min" : "1.8.0"
 	},
     "changelog" :
     {
+		"1.0.6"	   : [ "Added Seven Words template (256×256 with seven explorable levels). "],
 		"1.0.7"	   : [ "LSZLG updated to 1.1.7: fixed templates that never finished generating",
 					   "LSZLG: 200_LSZLG_324x5 and 200_LSZLG_504x4 renamed to _324x3 and _504x3" ],
 		"1.0.6"	   : [ "Added 4 new Template in LSZLG"],

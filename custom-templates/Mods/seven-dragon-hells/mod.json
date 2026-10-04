@@ -1,0 +1,50 @@
+{
+  "name": "Seven worlds",
+  "description": "Generate a random map of 256×256 with seven explorable levels. The single human Red player exclusively occupies the first level, while seven computer players are distributed across the remaining six levels; 22 pairs of independent two-way inter-level gates connect all seven levels, allowing each level to directly access the other six. No prerequisites involving the Dragon faction, Seven Dragon Hells, or Eternal Celestial Empire are required. The computer factions must remain random. Select the Seven Worlds (256x256x7) template, with 1 human slot and 7 computer slots; simply generate the map and it will be ready to play, with no finalization script required.",
+  "author": "代码助手与玩家",
+  "version": "1.0.0",
+  "modType": "Templates",
+  "depends": [],
+  "compatibility": {
+    "min": "1.8.0",
+    "max": "1.8.99"
+  },
+  "changelog": {
+    "0.2.2": [
+      "新增内置地图《七层龙域》：256×256、七层、八名玩家、标准龙群档。",
+      "启用模组后可在地图列表直接选择，无需先使用编辑器生成地图。"
+    ],
+    "0.2.1": [
+      "面向官方 VCMI 1.7.5 稳定版，明确九个龙族子包依赖。",
+      "按结构处理地图 JSON，不再依赖特定缩进；保留原地图备份并防止重复覆盖。"
+    ],
+    "0.2.0": [
+      "将七层结构生成与龙群精确配置分离",
+      "标准档保底44组主题龙，龙潮档保底88组主题龙",
+      "收尾时验证七层双向传送网络并保留VCMI原生地图格式"
+    ],
+    "0.2.3": [
+      "Target VCMI 1.8.0 develop build 0c8650a (2026-09-08); retain existing gameplay and animation assets. Earlier 1.8 development snapshots are not validated."
+    ],
+    "0.2.4": [
+      "Both random templates now connect each world directly to four different worlds, with a separate gate in every player start zone.",
+      "Add 32 independent two-way portal types to avoid exhausting RMG channels; existing domainFinalGate is retained."
+    ],
+    "0.2.5": [
+      "两套随机模板改为单人分层开局：红色玩家独占地表，七个电脑覆盖其余六层，仅熔火层容纳两个电脑。",
+      "每层六个不同跨层目标，入口数量为7/7/6/6/6/6/6；保留出生区入口、道路与深层守卫梯度。",
+      "收尾检查至少五个跨层入口、玩家与电脑分层及电脑均匀分布，并将其余七席设为电脑专用。电脑阵营需保持随机。"
+    ],
+    "1.0.0": [
+      "改为通用七层世界生成器，移除全部龙族前置和强制主题龙群。",
+      "保留七层分散开局与22对双向界门；直接生成，无需外部收尾工具。",
+      "旧固定地图及开发工具不再随玩家包提供，保留传送门内部标识。"
+    ]
+  },
+  "templates": [
+    "config/rmg/seven-worlds.json"
+  ],
+  "objects": [
+    "config/objects/domain-portals.json"
+  ]
+}

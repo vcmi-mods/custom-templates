@@ -1,0 +1,595 @@
+{
+  "Seven Worlds (256x256x7)": {
+    "name": "Seven Worlds (256x256x7)",
+    "description": "七层世界：256×256×7，红色玩家独占第一层，七个电脑分散于其余六层。22对独立双向界门、44个入口，每层可直达另外六层。1个人类席位、7个电脑席位，电脑阵营保持随机。无需龙族前置或额外收尾工具。",
+    "minSize": "256x256x7",
+    "maxSize": "256x256x7",
+    "players": "8",
+    "humans": "1",
+    "allowedWaterContent": [
+      "none"
+    ],
+    "zones": {
+      "1": {
+        "type": "playerStart",
+        "owner": 1,
+        "size": 24,
+        "forcedLevel": "surface",
+        "terrainTypes": [
+          "core:dirt",
+          "core:grass",
+          "core:rough",
+          "core:sand",
+          "core:snow",
+          "core:swamp"
+        ],
+        "matchTerrainToTown": true,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "normal",
+        "mines": {
+          "wood": 1,
+          "ore": 1
+        },
+        "treasure": [
+          {
+            "min": 500,
+            "max": 3000,
+            "density": 5
+          },
+          {
+            "min": 3000,
+            "max": 8000,
+            "density": 3
+          },
+          {
+            "min": 8000,
+            "max": 14000,
+            "density": 1
+          }
+        ]
+      },
+      "2": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:lava"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 1500,
+            "max": 6000,
+            "density": 4
+          },
+          {
+            "min": 6000,
+            "max": 14000,
+            "density": 3
+          },
+          {
+            "min": 14000,
+            "max": 28000,
+            "density": 1
+          }
+        ],
+        "forcedLevel": "underground",
+        "owner": 2
+      },
+      "3": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:rough"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 1500,
+            "max": 6000,
+            "density": 4
+          },
+          {
+            "min": 6000,
+            "max": 14000,
+            "density": 3
+          },
+          {
+            "min": 14000,
+            "max": 28000,
+            "density": 1
+          }
+        ],
+        "owner": 3
+      },
+      "4": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:swamp"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 1500,
+            "max": 6000,
+            "density": 4
+          },
+          {
+            "min": 6000,
+            "max": 14000,
+            "density": 3
+          },
+          {
+            "min": 14000,
+            "max": 28000,
+            "density": 1
+          }
+        ],
+        "owner": 4
+      },
+      "5": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:snow"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 1500,
+            "max": 6000,
+            "density": 4
+          },
+          {
+            "min": 6000,
+            "max": 14000,
+            "density": 3
+          },
+          {
+            "min": 14000,
+            "max": 28000,
+            "density": 1
+          }
+        ],
+        "owner": 5
+      },
+      "6": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:dirt"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 1500,
+            "max": 6000,
+            "density": 4
+          },
+          {
+            "min": 6000,
+            "max": 14000,
+            "density": 3
+          },
+          {
+            "min": 14000,
+            "max": 28000,
+            "density": 1
+          }
+        ],
+        "owner": 6
+      },
+      "7": {
+        "type": "cpuStart",
+        "size": 100,
+        "terrainTypes": [
+          "core:lava"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "strong",
+        "mines": {
+          "wood": 1,
+          "ore": 1,
+          "mercury": 1,
+          "sulfur": 1,
+          "crystal": 1,
+          "gems": 1,
+          "gold": 1
+        },
+        "treasure": [
+          {
+            "min": 3000,
+            "max": 10000,
+            "density": 3
+          },
+          {
+            "min": 10000,
+            "max": 24000,
+            "density": 2
+          },
+          {
+            "min": 24000,
+            "max": 50000,
+            "density": 1
+          }
+        ],
+        "owner": 7
+      },
+      "8": {
+        "type": "cpuStart",
+        "owner": 8,
+        "size": 24,
+        "forcedLevel": "underground",
+        "terrainTypes": [
+          "core:lava"
+        ],
+        "matchTerrainToTown": false,
+        "playerTowns": {
+          "towns": 1,
+          "castles": 1,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "neutralTowns": {
+          "towns": 0,
+          "castles": 0,
+          "townDensity": 0,
+          "castleDensity": 0
+        },
+        "monsters": "normal",
+        "mines": {
+          "wood": 1,
+          "ore": 1
+        },
+        "treasure": [
+          {
+            "min": 500,
+            "max": 3000,
+            "density": 5
+          },
+          {
+            "min": 3000,
+            "max": 8000,
+            "density": 3
+          },
+          {
+            "min": 8000,
+            "max": 14000,
+            "density": 1
+          }
+        ]
+      },
+      "9": {
+        "type": "junction",
+        "size": 28,
+        "forcedLevel": "surface",
+        "terrainTypes": [
+          "core:dirt",
+          "core:rough"
+        ],
+        "matchTerrainToTown": false,
+        "monsters": "strong",
+        "treasure": [
+          {
+            "min": 500,
+            "max": 3000,
+            "density": 5
+          },
+          {
+            "min": 3000,
+            "max": 8000,
+            "density": 3
+          },
+          {
+            "min": 8000,
+            "max": 14000,
+            "density": 1
+          }
+        ]
+      }
+    },
+    "connections": [
+      {
+        "a": "1",
+        "b": "9",
+        "guard": 8000,
+        "type": "guarded",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "8",
+        "guard": 4000,
+        "type": "guarded",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "2",
+        "guard": 22000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "3",
+        "guard": 30000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "4",
+        "guard": 42000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "5",
+        "guard": 56000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "6",
+        "guard": 75000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "9",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "3",
+        "guard": 30000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "4",
+        "guard": 42000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "5",
+        "guard": 56000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "6",
+        "guard": 75000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "2",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "3",
+        "b": "4",
+        "guard": 42000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "3",
+        "b": "5",
+        "guard": 56000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "3",
+        "b": "6",
+        "guard": 75000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "3",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "4",
+        "b": "5",
+        "guard": 56000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "4",
+        "b": "6",
+        "guard": 75000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "4",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "5",
+        "b": "6",
+        "guard": 75000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "5",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "6",
+        "b": "7",
+        "guard": 100000,
+        "type": "forcePortal",
+        "road": "true"
+      },
+      {
+        "a": "1",
+        "b": "8",
+        "guard": 22000,
+        "type": "forcePortal",
+        "road": "true"
+      }
+    ]
+  }
+}
