@@ -131,7 +131,7 @@
 
             "49": {
                 "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong",
-                "neutralTowns": { "fortresses": 1 },
+                "neutralTowns": { "castles": 1 },
                 "mines": { "gold": 2, "gems": 1, "crystal": 1, "sulfur": 1, "mercury": 1 },
                 "treasure" : [
                     {"min" : 40000, "max": 60000, "density": 1},
@@ -140,12 +140,12 @@
                 ]
             },
 
-            "50": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
-            "51": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
-            "52": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
-            "53": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
-            "54": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
-            "55": { "type": "junction", "forcedLevel": "automatic", "size": 20, "monsters": "strong", "neutralTowns": { "fortresses": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 }
+            "50": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
+            "51": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
+            "52": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
+            "53": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
+            "54": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 },
+            "55": { "type": "junction", "forcedLevel": "automatic", "size": 20, "monsters": "strong", "neutralTowns": { "castles": 1 }, "minesLikeZone": 49, "treasureLikeZone": 49 }
         },
         "connections": [
             { "a": "1", "b": "9", "guard": 6000, "road": "random" }, { "a": "2", "b": "10", "guard": 6000, "road": "true" },

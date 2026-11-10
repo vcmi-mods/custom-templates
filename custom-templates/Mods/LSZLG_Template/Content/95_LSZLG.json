@@ -202,7 +202,7 @@
             "94": { "type": "junction", "forcedLevel": "automatic", "size": 15, "monsters": "strong", "minesLikeZone": 70, "treasureLikeZone": 70, "customObjectsLikeZone": 70 },
             "95": {
                 "type": "treasure", "forcedLevel": "automatic", "size": 15, "monsters": "strong",
-                "neutralTowns": { "fortress": 1 },
+                "neutralTowns": { "castles": 1 },
                 "mines": { "gold": 2, "crystal": 1, "sulfur": 1, "gems": 1, "mercury": 1 },
                 "treasure" : [
                     {"min" : 100000, "max": 130000, "density": 1},

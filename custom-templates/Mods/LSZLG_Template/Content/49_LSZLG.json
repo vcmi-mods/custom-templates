@@ -19,7 +19,7 @@
                     {"min" : 2000, "max": 3000, "density": 10}
                 ],
                 "customObjects": {
-                    "bannedCategories": ["pandorasBox", "hero"],
+                    "bannedCategories": ["pandorasBox"],
                     "bannedObjects": {
                         "core:dragonUtopia": true,
                         "core:seerHut": true,
@@ -134,8 +134,7 @@
 
             "49": {
                 "type": "junction", "size": 20, "monsters": "strong", "forcedLevel": "automatic",
-                "neutralTowns": { "fortresses": 1 },
-                "terrain": "magicMeadow",
+                "neutralTowns": { "castles": 1 },
                 "mines": { "gold": 3, "gems": 2, "crystal": 2, "sulfur": 1, "mercury": 1 },
                 "treasure" : [
                     {"min" : 75000, "max": 125000, "density": 1},
