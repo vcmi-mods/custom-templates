@@ -10,7 +10,7 @@
             "1": {
                 "type": "playerStart", "forcedLevel": "surface", "size": 20, "owner": 1,
                 "playerTowns": { "castles": 1 }, "monsters": "normal", "mines": { "wood": 1, "ore": 1 },
-                "terrain": "dirt",
+                "terrainTypes": [ "dirt" ],
                 "treasure" : [
                     {"min" : 7500, "max": 15000, "density": 2},
                     {"min" : 3000, "max": 6000, "density": 5},
