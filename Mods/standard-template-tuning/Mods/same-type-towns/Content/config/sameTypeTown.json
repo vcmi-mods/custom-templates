@@ -1,0 +1,147 @@
+{
+	"vcmi:Clash of Dragons": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"14": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Coldshadow's Fantasy": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			},
+			"3": {
+				"townsAreSameType": true
+			},
+			"4": {
+				"townsAreSameType": true
+			},
+			"5": {
+				"townsAreSameType": true
+			},
+			"6": {
+				"townsAreSameType": true
+			},
+			"7": {
+				"townsAreSameType": true
+			},
+			"8": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Gimlis Revenge": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Headquarters": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			},
+			"3": {
+				"townsAreSameType": true
+			},
+			"4": {
+				"townsAreSameType": true
+			},
+			"5": {
+				"townsAreSameType": true
+			},
+			"6": {
+				"townsAreSameType": true
+			},
+			"7": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Jebus Cross": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			},
+			"3": {
+				"townsAreSameType": true
+			},
+			"4": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Long Run M": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"6": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Long Run XL": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"6": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Poor Jebus": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			},
+			"3": {
+				"townsAreSameType": true
+			},
+			"4": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Roadrunner": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			}
+		}
+	},
+	"vcmi:Schaafworld": {
+		"zones": {
+			"1": {
+				"townsAreSameType": true
+			},
+			"2": {
+				"townsAreSameType": true
+			}
+		}
+	}
+}

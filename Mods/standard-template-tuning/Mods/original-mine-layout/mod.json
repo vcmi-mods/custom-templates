@@ -1,0 +1,27 @@
+{
+	"name": "Original Mine Layout",
+	"description": "Keeps wood and ore mines next to the starting towns, as in the original Heroes III random map generator.\n\nMany random map templates ask for several sawmills and ore pits per starting zone, and the generator places only the first one next to the town — the rest end up scattered somewhere else within the same zone. Other templates also ask for extra wood and ore mines in zones in the middle of the map, so these resources end up all over the place instead of sitting next to the towns.\n\nThis mod patches the built-in random map templates. In every starting zone — both player starts and AI starts — exactly one sawmill and one ore pit are left. All other zones keep no wood or ore mines at all, and random sawmills and ore pits are banned there as well, so they cannot appear by chance either.\n\nMines of the other resources (mercury, sulphur, crystal, gems and gold) are not touched, so the far zones keep their treasure.\n\nSince it patches the templates themselves, maps generated before enabling the mod keep their old layout; regenerate the map to see the change.",
+	"author": "Igor Korsukov",
+	"version": "1.0",
+	"changelog": {
+		"1.0": [
+			"Wood and ore mines kept next to starting towns",
+			"Exactly one sawmill and one ore pit left in every starting zone",
+			"Extra wood and ore mines removed from far zones"
+		]
+	},
+	"modType": "Mechanics",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"depends": [
+		"vcmi"
+	],
+	"templates": [
+		"config/mineLayout.json"
+	],
+	"russian": {
+		"name": "Шахты как в оригинале",
+		"description": "Оставляет шахты дерева и руды рядом со стартовыми городами, как в генераторе случайных карт оригинальной Heroes III.\n\nМногие шаблоны случайных карт требуют по несколько лесопилок и рудников на стартовую зону, а генератор ставит у замка только первую — остальные оказываются где-то ещё в пределах той же зоны. Другие шаблоны вдобавок требуют лишние шахты дерева и руды в зонах в середине карты, поэтому эти ресурсы разбросаны по всей карте вместо того, чтобы стоять рядом с городами.\n\nМод патчит встроенные шаблоны случайных карт. В каждой стартовой зоне — как игрока, так и компьютера — остаётся ровно одна лесопилка и ровно один рудник. Во всех остальных зонах дерева и руды нет вообще, а случайные лесопилки и рудники там ещё и запрещены, чтобы не появились по воле случая.\n\nШахты остальных ресурсов (ртуть, сера, кристалл, самоцветы и золото) не тронуты, поэтому дальние зоны сохраняют свои сокровища.\n\nМод правит сами шаблоны, поэтому карты, сгенерированные до его включения, сохранят прежнюю раскладку — чтобы увидеть изменения, сгенерируйте карту заново."
+	}
+}
