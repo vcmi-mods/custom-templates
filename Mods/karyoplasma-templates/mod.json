@@ -5,22 +5,20 @@
 	"contact" : "Karyoplasma on vcmi-discord",
 	"modType" : "Templates",
 	"version" : "1.0.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"keepDisabled" : false,
-	"depends" :
-	[
+	"depends" : [
 		"hota.mapobjects",
 		"hota.wastelandterrain"
-	],	
-	"templates" :
-	[
+	],
+	"templates" : [
 		"TwoTownsUGConnectionsFFA.json"
 	],
-	"changelog" :
-	{
-		"1.0" : [ "Initial release"],
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	}
 }

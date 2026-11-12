@@ -303,7 +303,7 @@
 								"zoneLimit" : 5
 							},
 							"subtype" : "wolfRaiderPicket",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -312,7 +312,7 @@
 								"zoneLimit" : 5
 							},
 							"subtype" : "griffinConservatory",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -321,7 +321,7 @@
 								"zoneLimit" : 5
 							},
 							"subtype" : "experimentalShop",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -330,7 +330,7 @@
 								"zoneLimit" : 5
 							},
 							"subtype" : "redTower",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -339,7 +339,7 @@
 								"zoneLimit" : 5
 							},
 							"subtype" : "dragonFlyHive",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						}
 					]
 				},
@@ -360,7 +360,16 @@
 				},
 				"townHints" : [
 					{
-						"notLikeZone" : [7, 8, 9, 10, 11, 12, 13, 14]
+						"notLikeZone" : [
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14
+						]
 					}
 				],
 				"size" : 45,
@@ -402,7 +411,9 @@
 				"monsters" : "weak",
 				"owner" : 4,
 				// Player 4 (green)
-				"allowedTowns" : ["inferno"],
+				"allowedTowns" : [
+					"inferno"
+				],
 				"playerTowns" : {
 					"castles" : 1
 				},
@@ -424,7 +435,9 @@
 				"monsters" : "weak",
 				"owner" : 5,
 				// Player 5 (orange)
-				"allowedTowns" : ["rampart"],
+				"allowedTowns" : [
+					"rampart"
+				],
 				"size" : 20,
 				"townsAreSameType" : true,
 				"playerTowns" : {
@@ -446,7 +459,9 @@
 				"monsters" : "weak",
 				"owner" : 6,
 				// Player 6 (purple)
-				"allowedTowns" : ["conflux"],
+				"allowedTowns" : [
+					"conflux"
+				],
 				"size" : 20,
 				"townsAreSameType" : true,
 				"playerTowns" : {
@@ -463,7 +478,9 @@
 			},
 			"13" : {
 				// Player 7 (teal)
-				"allowedTowns" : ["hota.factory:factory"],
+				"allowedTowns" : [
+					"hota.factory:factory"
+				],
 				"customObjectsLikeZone" : 7,
 				"forcedLevel" : "surface",
 				"minesLikeZone" : 7,
@@ -485,7 +502,9 @@
 			},
 			"14" : {
 				// Player 8 (pink)
-				"allowedTowns" : ["tower"],
+				"allowedTowns" : [
+					"tower"
+				],
 				"customObjectsLikeZone" : 7,
 				"forcedLevel" : "surface",
 				"minesLikeZone" : 7,
@@ -597,7 +616,7 @@
 								"zoneLimit" : 8
 							},
 							"subtype" : "wolfRaiderPicket",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -606,7 +625,7 @@
 								"zoneLimit" : 8
 							},
 							"subtype" : "griffinConservatory",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -615,7 +634,7 @@
 								"zoneLimit" : 8
 							},
 							"subtype" : "experimentalShop",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -624,7 +643,7 @@
 								"zoneLimit" : 8
 							},
 							"subtype" : "redTower",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -633,7 +652,7 @@
 								"zoneLimit" : 8
 							},
 							"subtype" : "dragonFlyHive",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						}
 					]
 				},
@@ -683,7 +702,16 @@
 				},
 				"townHints" : [
 					{
-						"notLikeZone" : [7, 8, 9, 10, 11, 12, 13, 14]
+						"notLikeZone" : [
+							7,
+							8,
+							9,
+							10,
+							11,
+							12,
+							13,
+							14
+						]
 					}
 				],
 				"customObjectsLikeZone" : 1,
@@ -830,7 +858,7 @@
 								"zoneLimit" : 2
 							},
 							"subtype" : "wolfRaiderPicket",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -839,7 +867,7 @@
 								"zoneLimit" : 2
 							},
 							"subtype" : "griffinConservatory",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -848,7 +876,7 @@
 								"zoneLimit" : 2
 							},
 							"subtype" : "experimentalShop",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -857,7 +885,7 @@
 								"zoneLimit" : 2
 							},
 							"subtype" : "redTower",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -866,7 +894,7 @@
 								"zoneLimit" : 2
 							},
 							"subtype" : "dragonFlyHive",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						}
 					]
 				},
@@ -1114,7 +1142,7 @@
 								"zoneLimit" : 1
 							},
 							"subtype" : "wolfRaiderPicket",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -1123,7 +1151,7 @@
 								"zoneLimit" : 1
 							},
 							"subtype" : "griffinConservatory",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -1132,7 +1160,7 @@
 								"zoneLimit" : 1
 							},
 							"subtype" : "experimentalShop",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -1141,7 +1169,7 @@
 								"zoneLimit" : 1
 							},
 							"subtype" : "redTower",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						},
 						{
 							"rmg" : {
@@ -1150,7 +1178,7 @@
 								"zoneLimit" : 1
 							},
 							"subtype" : "dragonFlyHive",
-							"type" : "core:creatureBank"	
+							"type" : "core:creatureBank"
 						}
 					]
 				},
@@ -1167,7 +1195,9 @@
 				"monsters" : "weak",
 				"owner" : 1,
 				// Player 1 (red)
-				"allowedTowns" : ["dungeon"],
+				"allowedTowns" : [
+					"dungeon"
+				],
 				"playerTowns" : {
 					"castles" : 1
 				},
@@ -1199,7 +1229,9 @@
 			},
 			"8" : {
 				// Player 2 (blue)
-				"allowedTowns" : ["hota.cove:cove"],
+				"allowedTowns" : [
+					"hota.cove:cove"
+				],
 				"playerTowns" : {
 					"castles" : 1
 				},
@@ -1221,7 +1253,9 @@
 			},
 			"9" : {
 				// Player 3 (tan)
-				"allowedTowns" : ["necropolis"],
+				"allowedTowns" : [
+					"necropolis"
+				],
 				"playerTowns" : {
 					"castles" : 1
 				},

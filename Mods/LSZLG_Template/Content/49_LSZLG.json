@@ -1,187 +1,1165 @@
 {
-    "49_LSZLG":
-    {
-        "minSize": "252x252x3", "maxSize": "252x252x3",
-        "players": "1-8", "humans": "1-8",
-		"allowedWaterContent": ["none", "normal", "islands"],
-        "bannedSpells": ["fly", "dimensionDoor", "summonBoat", "waterWalk"],
-        "bannedArtifacts": ["angelWings"],
+	"49_LSZLG" : {
+		"minSize" : "252x252x3",
+		"maxSize" : "252x252x3",
+		"players" : "1-8",
+		"humans" : "1-8",
+		"allowedWaterContent" : [
+			"none",
+			"normal",
+			"islands"
+		],
+		"bannedSpells" : [
+			"fly",
+			"dimensionDoor",
+			"summonBoat",
+			"waterWalk"
+		],
+		"bannedArtifacts" : [
+			"angelWings"
+		],
 
-        "zones":
-        {
-            "1": {
-                "type": "playerStart", "size": 18, "owner": 1, "forcedLevel": "surface",
-                "playerTowns": { "castles": 1 }, "monsters": "normal",
-                "mines": { "wood": 1, "ore": 1 },
-                "treasure" : [
-                    {"min" : 7500, "max": 15000, "density": 2},
-                    {"min" : 3000, "max": 6000, "density": 5},
-                    {"min" : 2000, "max": 3000, "density": 10}
-                ],
-                "customObjects": {
-                    "bannedCategories": ["pandorasBox"],
-                    "bannedObjects": {
-                        "core:dragonUtopia": true,
-                        "core:seerHut": true,
-                        "core:randomArtifactRelic": true,
-                        "core:whirlpool": true,
-                        "core:boat": true
-                    }
-                }
-            },
+		"zones" : {
+			"1" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 1,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 7500,
+						"max" : 15000,
+						"density" : 2
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 5
+					},
+					{
+						"min" : 2000,
+						"max" : 3000,
+						"density" : 10
+					}
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"pandorasBox"
+					],
+					"bannedObjects" : {
+						"core:dragonUtopia" : true,
+						"core:seerHut" : true,
+						"core:randomArtifactRelic" : true,
+						"core:whirlpool" : true,
+						"core:boat" : true
+					}
+				}
+			},
 
-            "2": { "type": "playerStart", "size": 18, "owner": 2, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "3": { "type": "playerStart", "size": 18, "owner": 3, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "4": { "type": "playerStart", "size": 18, "owner": 4, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "5": { "type": "playerStart", "size": 18, "owner": 5, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "6": { "type": "playerStart", "size": 18, "owner": 6, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "7": { "type": "playerStart", "size": 18, "owner": 7, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
-            "8": { "type": "playerStart", "size": 18, "owner": 8, "forcedLevel": "surface", "playerTowns": { "castles": 1 }, "monsters": "normal", "minesLikeZone": 1, "treasureLikeZone": 1, "customObjectsLikeZone": 1 },
+			"2" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 2,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"3" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 3,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"4" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 4,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"5" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 5,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"6" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 6,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"7" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 7,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"8" : {
+				"type" : "playerStart",
+				"size" : 18,
+				"owner" : 8,
+				"forcedLevel" : "surface",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"monsters" : "normal",
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
 
-            "9": {
-                "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface",
-                "mines": { "crystal": 1 },
-                "treasure" : [
-                    {"min" : 10000, "max": 15000, "density": 3},
-                    {"min" : 6000, "max": 9000, "density": 8},
-                    {"min" : 4000, "max": 6000, "density": 12}
-                ]
-            },
+			"9" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"mines" : {
+					"crystal" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 3
+					},
+					{
+						"min" : 6000,
+						"max" : 9000,
+						"density" : 8
+					},
+					{
+						"min" : 4000,
+						"max" : 6000,
+						"density" : 12
+					}
+				]
+			},
 
-            "10": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "11": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "12": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "13": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "14": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "15": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
-            "16": { "type": "treasure", "size": 15, "monsters": "normal", "forcedLevel": "surface", "minesLikeZone": 9, "treasureLikeZone": 9 },
+			"10" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"11" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"12" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"13" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"14" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"15" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
+			"16" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"minesLikeZone" : 9,
+				"treasureLikeZone" : 9
+			},
 
-            "17": {
-                "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface",
-                "neutralTowns": { "castles": 1 },
-                "mines": { "wood": 1, "ore": 1, "crystal": 1 },
-                "treasure" : [
-                    {"min" : 15000, "max": 20000, "density": 6},
-                    {"min" : 7500, "max": 10000, "density": 10},
-                    {"min" : 3000, "max": 6000, "density": 10}
-                ]
-            },
+			"17" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1,
+					"crystal" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 6
+					},
+					{
+						"min" : 7500,
+						"max" : 10000,
+						"density" : 10
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 10
+					}
+				]
+			},
 
-            "18": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "19": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "20": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "21": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "22": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "23": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
-            "24": { "type": "treasure", "size": 18, "monsters": "normal", "forcedLevel": "surface", "neutralTowns": { "castles": 1 }, "minesLikeZone": 17, "treasureLikeZone": 17 },
+			"18" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"19" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"20" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"21" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"22" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"23" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
+			"24" : {
+				"type" : "treasure",
+				"size" : 18,
+				"monsters" : "normal",
+				"forcedLevel" : "surface",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"minesLikeZone" : 17,
+				"treasureLikeZone" : 17
+			},
 
-            "25": {
-                "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground",
-                "neutralTowns": { "towns": 1 },
-                "mines": { "gold": 1 },
-                "treasure" : [
-                    {"min" : 20000, "max": 30000, "density": 2},
-                    {"min" : 15000, "max": 20000, "density": 6},
-                    {"min" : 7500, "max": 10000, "density": 9}
-                ]
-            },
+			"25" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"mines" : {
+					"gold" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 20000,
+						"max" : 30000,
+						"density" : 2
+					},
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 6
+					},
+					{
+						"min" : 7500,
+						"max" : 10000,
+						"density" : 9
+					}
+				]
+			},
 
-            "26": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "27": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "28": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "29": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "30": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "31": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
-            "32": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 25, "treasureLikeZone": 25 },
+			"26" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"27" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"28" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"29" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"30" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"31" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
+			"32" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 25,
+				"treasureLikeZone" : 25
+			},
 
-            "33": {
-                "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground",
-                "neutralTowns": { "towns": 1 },
-                "mines": { "gold": 1 },
-                "treasure" : [
-                    {"min" : 25000, "max": 35000, "density": 2},
-                    {"min" : 18000, "max": 25000, "density": 6},
-                    {"min" : 10000, "max": 15000, "density": 9}
-                ]
-            },
+			"33" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"mines" : {
+					"gold" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 25000,
+						"max" : 35000,
+						"density" : 2
+					},
+					{
+						"min" : 18000,
+						"max" : 25000,
+						"density" : 6
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 9
+					}
+				]
+			},
 
-            "34": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "35": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "36": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "37": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "38": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "39": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
-            "40": { "type": "treasure", "size": 15, "monsters": "strong", "forcedLevel": "underground", "neutralTowns": { "towns": 1 }, "minesLikeZone": 33, "treasureLikeZone": 33 },
+			"34" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"35" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"36" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"37" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"38" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"39" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
+			"40" : {
+				"type" : "treasure",
+				"size" : 15,
+				"monsters" : "strong",
+				"forcedLevel" : "underground",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 33,
+				"treasureLikeZone" : 33
+			},
 
-            "41": {
-                "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic",
-                "neutralTowns": { "towns": 1 },
-                "mines": { "gems": 1, "crystal": 1 },
-                "treasure" : [
-                    {"min" : 30000, "max": 50000, "density": 1},
-                    {"min" : 20000, "max": 30000, "density": 3},
-                    {"min" : 10000, "max": 15000, "density": 6}
-                ]
-            },
+			"41" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"mines" : {
+					"gems" : 1,
+					"crystal" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 30000,
+						"max" : 50000,
+						"density" : 1
+					},
+					{
+						"min" : 20000,
+						"max" : 30000,
+						"density" : 3
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 6
+					}
+				]
+			},
 
-            "42": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "43": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "44": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "45": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "46": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "47": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
-            "48": { "type": "junction", "size": 12, "monsters": "strong", "forcedLevel": "automatic", "neutralTowns": { "towns": 1 }, "minesLikeZone": 41, "treasureLikeZone": 41 },
+			"42" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"43" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"44" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"45" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"46" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"47" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
+			"48" : {
+				"type" : "junction",
+				"size" : 12,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"minesLikeZone" : 41,
+				"treasureLikeZone" : 41
+			},
 
-            "49": {
-                "type": "junction", "size": 20, "monsters": "strong", "forcedLevel": "automatic",
-                "neutralTowns": { "castles": 1 },
-                "mines": { "gold": 3, "gems": 2, "crystal": 2, "sulfur": 1, "mercury": 1 },
-                "treasure" : [
-                    {"min" : 75000, "max": 125000, "density": 1},
-                    {"min" : 50000, "max": 75000, "density": 2},
-                    {"min" : 25000, "max": 50000, "density": 3}
-                ]
-            }
-        },
-        "connections": [
-            { "a": "1", "b": "9", "guard": 6000, "road": "random" }, { "a": "2", "b": "10", "guard": 6000, "road": "true" },
-            { "a": "3", "b": "11", "guard": 6000, "road": "true" }, { "a": "4", "b": "12", "guard": 6000, "road": "random" },
-            { "a": "5", "b": "13", "guard": 6000, "road": "true" }, { "a": "6", "b": "14", "guard": 6000, "road": "true" },
-            { "a": "7", "b": "15", "guard": 6000, "road": "random" }, { "a": "8", "b": "16", "guard": 6000, "road": "true" },
-            { "a": "9", "b": "10", "guard": 6000, "road": "random" }, { "a": "10", "b": "11", "guard": 6000, "road": "true" },
-            { "a": "11", "b": "12", "guard": 6000, "road": "true" }, { "a": "12", "b": "13", "guard": 6000, "road": "random" },
-            { "a": "13", "b": "14", "guard": 6000, "road": "true" }, { "a": "14", "b": "15", "guard": 6000, "road": "true" },
-            { "a": "15", "b": "16", "guard": 6000, "road": "random" }, { "a": "16", "b": "9", "guard": 6000, "road": "true" },
-            { "a": "9", "b": "17", "guard": 8000, "road": "random" }, { "a": "10", "b": "18", "guard": 8000, "road": "true" },
-            { "a": "11", "b": "19", "guard": 8000, "road": "true" }, { "a": "12", "b": "20", "guard": 8000, "road": "random" },
-            { "a": "13", "b": "21", "guard": 8000, "road": "true" }, { "a": "14", "b": "22", "guard": 8000, "road": "true" },
-            { "a": "15", "b": "23", "guard": 8000, "road": "random" }, { "a": "16", "b": "24", "guard": 8000, "road": "true" },
-            { "a": "17", "b": "18", "guard": 8000, "road": "random" }, { "a": "18", "b": "19", "guard": 8000, "road": "true" },
-            { "a": "19", "b": "20", "guard": 8000, "road": "true" }, { "a": "20", "b": "21", "guard": 8000, "road": "random" },
-            { "a": "21", "b": "22", "guard": 8000, "road": "true" }, { "a": "22", "b": "23", "guard": 8000, "road": "true" },
-            { "a": "23", "b": "24", "guard": 8000, "road": "random" }, { "a": "24", "b": "17", "guard": 8000, "road": "true" },
-            { "a": "17", "b": "25", "guard": 9000, "road": "random" }, { "a": "18", "b": "26", "guard": 9000, "road": "true" },
-            { "a": "19", "b": "27", "guard": 9000, "road": "true" }, { "a": "20", "b": "28", "guard": 9000, "road": "random" },
-            { "a": "21", "b": "29", "guard": 9000, "road": "true" }, { "a": "22", "b": "30", "guard": 9000, "road": "true" },
-            { "a": "23", "b": "31", "guard": 9000, "road": "random" }, { "a": "24", "b": "32", "guard": 9000, "road": "true" },
-            { "a": "25", "b": "26", "guard": 12000, "road": "random" }, { "a": "26", "b": "27", "guard": 12000, "road": "true" },
-            { "a": "27", "b": "28", "guard": 12000, "road": "true" }, { "a": "28", "b": "29", "guard": 12000, "road": "random" },
-            { "a": "29", "b": "30", "guard": 12000, "road": "true" }, { "a": "30", "b": "31", "guard": 12000, "road": "true" },
-            { "a": "31", "b": "32", "guard": 12000, "road": "random" }, { "a": "32", "b": "25", "guard": 12000, "road": "true" },
-            { "a": "25", "b": "33", "guard": 12000, "road": "random" }, { "a": "26", "b": "34", "guard": 12000, "road": "true" },
-            { "a": "27", "b": "35", "guard": 12000, "road": "true" }, { "a": "28", "b": "36", "guard": 12000, "road": "random" },
-            { "a": "29", "b": "37", "guard": 12000, "road": "true" }, { "a": "30", "b": "38", "guard": 12000, "road": "true" },
-            { "a": "31", "b": "39", "guard": 12000, "road": "random" }, { "a": "32", "b": "40", "guard": 12000, "road": "true" },
-            { "a": "33", "b": "34", "guard": 15000, "road": "random" }, { "a": "34", "b": "35", "guard": 15000, "road": "true" },
-            { "a": "35", "b": "36", "guard": 15000, "road": "true" }, { "a": "36", "b": "37", "guard": 15000, "road": "random" },
-            { "a": "37", "b": "38", "guard": 15000, "road": "true" }, { "a": "38", "b": "39", "guard": 15000, "road": "true" },
-            { "a": "39", "b": "40", "guard": 15000, "road": "random" }, { "a": "40", "b": "33", "guard": 15000, "road": "true" },
-            { "a": "33", "b": "41", "guard": 16000, "road": "true" }, { "a": "37", "b": "45", "guard": 16000, "road": "true" },
-            { "a": "41", "b": "42", "guard": 18000, "road": "random" }, { "a": "42", "b": "43", "guard": 18000, "road": "true" },
-            { "a": "43", "b": "44", "guard": 18000, "road": "true" }, { "a": "44", "b": "45", "guard": 18000, "road": "random" },
-            { "a": "45", "b": "46", "guard": 18000, "road": "true" }, { "a": "46", "b": "47", "guard": 18000, "road": "true" },
-            { "a": "47", "b": "48", "guard": 18000, "road": "random" }, { "a": "48", "b": "49", "guard": 18000, "road": "true" },
-            { "a": "49", "b": "41", "guard": 18000, "road": "true" }
-        ]
-    }
+			"49" : {
+				"type" : "junction",
+				"size" : 20,
+				"monsters" : "strong",
+				"forcedLevel" : "automatic",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"mines" : {
+					"gold" : 3,
+					"gems" : 2,
+					"crystal" : 2,
+					"sulfur" : 1,
+					"mercury" : 1
+				},
+				"treasure" : [
+					{
+						"min" : 75000,
+						"max" : 125000,
+						"density" : 1
+					},
+					{
+						"min" : 50000,
+						"max" : 75000,
+						"density" : 2
+					},
+					{
+						"min" : 25000,
+						"max" : 50000,
+						"density" : 3
+					}
+				]
+			}
+		},
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "2",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "11",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "12",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "5",
+				"b" : "13",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "14",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "7",
+				"b" : "15",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "8",
+				"b" : "16",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "9",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "10",
+				"b" : "11",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "11",
+				"b" : "12",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "12",
+				"b" : "13",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "13",
+				"b" : "14",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "14",
+				"b" : "15",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "15",
+				"b" : "16",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "16",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "9",
+				"b" : "17",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "10",
+				"b" : "18",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "11",
+				"b" : "19",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "12",
+				"b" : "20",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "13",
+				"b" : "21",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "14",
+				"b" : "22",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "15",
+				"b" : "23",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "16",
+				"b" : "24",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "17",
+				"b" : "18",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "18",
+				"b" : "19",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "19",
+				"b" : "20",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "20",
+				"b" : "21",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "21",
+				"b" : "22",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "22",
+				"b" : "23",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "23",
+				"b" : "24",
+				"guard" : 8000,
+				"road" : "random"
+			},
+			{
+				"a" : "24",
+				"b" : "17",
+				"guard" : 8000,
+				"road" : "true"
+			},
+			{
+				"a" : "17",
+				"b" : "25",
+				"guard" : 9000,
+				"road" : "random"
+			},
+			{
+				"a" : "18",
+				"b" : "26",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "19",
+				"b" : "27",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "20",
+				"b" : "28",
+				"guard" : 9000,
+				"road" : "random"
+			},
+			{
+				"a" : "21",
+				"b" : "29",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "22",
+				"b" : "30",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "23",
+				"b" : "31",
+				"guard" : 9000,
+				"road" : "random"
+			},
+			{
+				"a" : "24",
+				"b" : "32",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "25",
+				"b" : "26",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "26",
+				"b" : "27",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "27",
+				"b" : "28",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "28",
+				"b" : "29",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "29",
+				"b" : "30",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "30",
+				"b" : "31",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "31",
+				"b" : "32",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "32",
+				"b" : "25",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "25",
+				"b" : "33",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "26",
+				"b" : "34",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "27",
+				"b" : "35",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "28",
+				"b" : "36",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "29",
+				"b" : "37",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "30",
+				"b" : "38",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "31",
+				"b" : "39",
+				"guard" : 12000,
+				"road" : "random"
+			},
+			{
+				"a" : "32",
+				"b" : "40",
+				"guard" : 12000,
+				"road" : "true"
+			},
+			{
+				"a" : "33",
+				"b" : "34",
+				"guard" : 15000,
+				"road" : "random"
+			},
+			{
+				"a" : "34",
+				"b" : "35",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "35",
+				"b" : "36",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "36",
+				"b" : "37",
+				"guard" : 15000,
+				"road" : "random"
+			},
+			{
+				"a" : "37",
+				"b" : "38",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "38",
+				"b" : "39",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "39",
+				"b" : "40",
+				"guard" : 15000,
+				"road" : "random"
+			},
+			{
+				"a" : "40",
+				"b" : "33",
+				"guard" : 15000,
+				"road" : "true"
+			},
+			{
+				"a" : "33",
+				"b" : "41",
+				"guard" : 16000,
+				"road" : "true"
+			},
+			{
+				"a" : "37",
+				"b" : "45",
+				"guard" : 16000,
+				"road" : "true"
+			},
+			{
+				"a" : "41",
+				"b" : "42",
+				"guard" : 18000,
+				"road" : "random"
+			},
+			{
+				"a" : "42",
+				"b" : "43",
+				"guard" : 18000,
+				"road" : "true"
+			},
+			{
+				"a" : "43",
+				"b" : "44",
+				"guard" : 18000,
+				"road" : "true"
+			},
+			{
+				"a" : "44",
+				"b" : "45",
+				"guard" : 18000,
+				"road" : "random"
+			},
+			{
+				"a" : "45",
+				"b" : "46",
+				"guard" : 18000,
+				"road" : "true"
+			},
+			{
+				"a" : "46",
+				"b" : "47",
+				"guard" : 18000,
+				"road" : "true"
+			},
+			{
+				"a" : "47",
+				"b" : "48",
+				"guard" : 18000,
+				"road" : "random"
+			},
+			{
+				"a" : "48",
+				"b" : "49",
+				"guard" : 18000,
+				"road" : "true"
+			},
+			{
+				"a" : "49",
+				"b" : "41",
+				"guard" : 18000,
+				"road" : "true"
+			}
+		]
+	}
 }

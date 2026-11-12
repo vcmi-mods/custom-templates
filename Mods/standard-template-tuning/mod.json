@@ -1,21 +1,21 @@
 {
-	"name": "Standard Template Tuning",
-	"description": "Adjusts the built-in random map templates that ship with VCMI, without touching the rules of the game itself.\n\nEvery part of this sub-mod patches the stock templates, so that generated maps behave differently from the default generator.\n\nWhat exactly each part changes is described in the description of the corresponding sub-mod.\n\nEvery part can be switched on or off separately in the Launcher.\n\n## Note\n\nSince the mod patches the templates themselves, maps generated before enabling a part keep their old layout. Regenerate the map to see the change.",
-	"author": "Igor Korsukov",
-	"version": "1.0",
-	"changelog": {
-		"1.0": [
+	"name" : "Standard Template Tuning",
+	"description" : "Adjusts the built-in random map templates that ship with VCMI, without touching the rules of the game itself.\n\nEvery part of this sub-mod patches the stock templates, so that generated maps behave differently from the default generator.\n\nWhat exactly each part changes is described in the description of the corresponding sub-mod.\n\nEvery part can be switched on or off separately in the Launcher.\n\n## Note\n\nSince the mod patches the templates themselves, maps generated before enabling a part keep their old layout. Regenerate the map to see the change.",
+	"author" : "Igor Korsukov",
+	"version" : "1.0",
+	"changelog" : {
+		"1.0" : [
 			"Initial release: wood and ore mines kept next to starting towns",
 			"Second town in a starting zone matches the chosen starting faction"
 		]
 	},
-	"modType": "Templates",
-	"keepDisabled": true,
-	"compatibility": {
-		"min": "1.7.0"
+	"modType" : "Templates",
+	"keepDisabled" : true,
+	"compatibility" : {
+		"min" : "1.7.0"
 	},
-	"russian": {
-		"name": "Тюнинг стандартных шаблонов",
-		"description": "Настраивает встроенные шаблоны случайных карт, которые поставляются вместе с VCMI, не меняя сами правила игры.\n\nКаждая часть этого подмода правит готовые шаблоны, чтобы сгенерированные карты выглядели иначе, чем в стандартном генераторе.\n\nЧто именно меняет каждая часть, можно узнать в описании соответствующего подмода.\n\nКаждую часть можно включить или отключить отдельно в лаунчере.\n\n## Замечание\n\nМод правит сами шаблоны, поэтому карты, сгенерированные до включения какой-либо части, сохранят прежнюю раскладку. Чтобы увидеть изменения, сгенерируйте карту заново."
+	"russian" : {
+		"name" : "Тюнинг стандартных шаблонов",
+		"description" : "Настраивает встроенные шаблоны случайных карт, которые поставляются вместе с VCMI, не меняя сами правила игры.\n\nКаждая часть этого подмода правит готовые шаблоны, чтобы сгенерированные карты выглядели иначе, чем в стандартном генераторе.\n\nЧто именно меняет каждая часть, можно узнать в описании соответствующего подмода.\n\nКаждую часть можно включить или отключить отдельно в лаунчере.\n\n## Замечание\n\nМод правит сами шаблоны, поэтому карты, сгенерированные до включения какой-либо части, сохранят прежнюю раскладку. Чтобы увидеть изменения, сгенерируйте карту заново."
 	}
 }

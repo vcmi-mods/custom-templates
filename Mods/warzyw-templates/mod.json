@@ -5,19 +5,18 @@
 	"contact" : "warzyw647 on heroes-themed Discords",
 	"modType" : "Templates",
 	"version" : "1.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6.0"
 	},
 	"keepDisabled" : false,
-	"templates" :
-	[
+	"templates" : [
 		"sim-city.json",
 		"grond.json"
 	],
-	"changelog" :
-	{
-		"1.0" : [ "Moved Grond and Sim City from mod warzyw-templates. Brawl and Arena from warzyw-templates were moved to PvP-balance mod."],
+	"changelog" : {
+		"1.0" : [
+			"Moved Grond and Sim City from mod warzyw-templates. Brawl and Arena from warzyw-templates were moved to PvP-balance mod."
+		]
 	},
 	"chinese" : {
 		"name" : "warzyw地图模板集",
