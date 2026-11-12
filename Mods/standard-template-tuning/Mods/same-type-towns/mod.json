@@ -1,0 +1,25 @@
+{
+	"name": "Same-Type Extra Towns",
+	"description": "Makes the extra towns in a starting zone be of the same faction as the player's chosen starting town.\n\nMany templates give a starting zone more than one town: the player's own and one or two additional towns. The additional ones are rolled from the full pool of allowed factions, so they often end up as something unrelated to the player's choice.\n\nWith this mod every extra town in a starting zone uses the same faction as the starting town. If you pick Rampart as your starting town, all towns in your zone will be Rampart as well.\n\nTemplates affected: Clash of Dragons, Coldshadow's Fantasy, Gimlis Revenge, Headquarters, Jebus Cross, Long Run M, Long Run XL, Poor Jebus, Roadrunner and Schaafworld.\n\nSince it patches the templates themselves, maps generated before enabling the mod keep their old layout; regenerate the map to see the change.",
+	"author": "Igor Korsukov",
+	"version": "1.0",
+	"changelog": {
+		"1.0": [
+			"Extra towns in a starting zone match the chosen starting faction"
+		]
+	},
+	"modType": "Templates",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"depends": [
+		"vcmi"
+	],
+	"templates": [
+		"config/sameTypeTown.json"
+	],
+	"russian": {
+		"name": "Дополнительные города того же типа",
+		"description": "Делает дополнительные города в стартовой зоне того же типа, что и выбранный игроком стартовый город.\n\nМногие шаблоны дают стартовой зоне больше одного города: собственный город игрока и один или два дополнительных. Дополнительные выбираются случайно из всего пула разрешённых фракций, поэтому часто оказываются никак не связаны с выбором игрока.\n\nС этим модом каждый дополнительный город в стартовой зоне получает ту же фракцию, что и стартовый. Если вы выбрали Рампорт, все города в вашей зоне тоже будут Рампортом.\n\nЗатронуты шаблоны: Clash of Dragons, Coldshadow's Fantasy, Gimlis Revenge, Headquarters, Jebus Cross, Long Run M, Long Run XL, Poor Jebus, Roadrunner и Schaafworld.\n\nМод правит сами шаблоны, поэтому карты, сгенерированные до его включения, сохранят прежнюю раскладку — чтобы увидеть изменения, сгенерируйте карту заново."
+	}
+}

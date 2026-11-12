@@ -4,13 +4,14 @@
     "author" : "Various",
     "contact" : "https://discord.gg/tx2wXtZp",
     "modType" : "Templates",	
-	"version" : "1.0.8",
+	"version" : "1.0.9",
  	"compatibility" :
 	{
 		"min" : "1.8.0"
 	},
     "changelog" :
     {
+		"1.0.9"	   : [ "Added Standard Template Tuning"],
 		"1.0.8"	   : [ "Added Seven Words template (256×256 with seven explorable levels). "],
 		"1.0.7"	   : [ "LSZLG updated to 1.1.7: fixed templates that never finished generating",
 					   "LSZLG: 200_LSZLG_324x5 and 200_LSZLG_504x4 renamed to _324x3 and _504x3" ],
@@ -21,5 +22,10 @@
         "1.0.2"    : [ "Added three new templates by LastSpy"],
 		"1.0.1"    : [ "Added TwoTownsUGConnectionsFFA template by Karyoplasma"],
 		"1.0.0"    : [ "Initial release with 2 Ash templates"]
+    },
+	"russian" :
+    {
+        "name" : "Пользовательские шаблоны",
+        "description" : "Сборник пользовательских шаблонов случайных карт, созданных сообществом VCMI."
     }
 }

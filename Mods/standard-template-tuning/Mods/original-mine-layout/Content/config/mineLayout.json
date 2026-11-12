@@ -1,0 +1,2564 @@
+{
+	"vcmi:Balance M": {
+		"zones": {
+			"4": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:Balance L": {
+		"zones": {
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:Balance XL": {
+		"zones": {
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:Blockbuster L": {
+		"zones": {
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Blockbuster XL": {
+		"zones": {
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 3,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 3,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Clash of Dragons": {
+		"zones": {
+			"3": {
+				"mines": {
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"16": {
+				"mines": {
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Coldshadow's Fantasy": {
+		"zones": {
+			"1": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				}
+			},
+			"2": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"3": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"5": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 1
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Extreme L": {
+		"zones": {
+			"5": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"6": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"8": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Extreme XL": {
+		"zones": {
+			"5": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"6": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"8": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Frozen Dragons": {
+		"zones": {
+			"9": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"10": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"11": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"12": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Gimlis Revenge": {
+		"zones": {
+			"3": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"5": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Guerilla": {
+		"zones": {
+			"2": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"9": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"10": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"11": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Headquarters": {
+		"zones": {
+			"1": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				}
+			},
+			"2": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"3": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"5": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1
+				},
+				"minesLikeZone": -1
+			},
+			"9": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:HyperCube": {
+		"zones": {
+			"2": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"3": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Jebus Cross": {
+		"zones": {
+			"1": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 2
+				}
+			},
+			"2": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			},
+			"3": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 1,
+					"ore": 1,
+					"gems": 1,
+					"crystal": 1,
+					"sulfur": 1,
+					"mercury": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Long Run M": {
+		"zones": {
+			"2": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Long Run XL": {
+		"zones": {
+			"2": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Poor Jebus": {
+		"zones": {
+			"1": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2
+				}
+			},
+			"2": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			},
+			"3": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"wood": 1,
+					"mercury": 1,
+					"ore": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 2
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Reckless": {
+		"zones": {
+			"9": {
+				"mines": {
+					"gold": 3,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:Schaafworld": {
+		"zones": {
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Speed 2": {
+		"zones": {
+			"4": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"5": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:SuperSlam": {
+		"zones": {
+			"3": {
+				"mines": {
+					"sulfur": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"4": {
+				"mines": {
+					"sulfur": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Dwarven Tunnels": {
+		"zones": {
+			"5": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"10": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"13": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"16": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Meeting in Muzgob": {
+		"zones": {
+			"7": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"9": {
+				"mines": {
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Monk's Retreat": {
+		"zones": {
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"gold": 2,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"gold": 2,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"9": {
+				"mines": {
+					"mercury": 1,
+					"gold": 2,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Newcomers": {
+		"zones": {
+			"2": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"6": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"8": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"9": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"10": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"11": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Ready or Not": {
+		"zones": {
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"5": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"6": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"7": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:South of Hell": {
+		"zones": {
+			"3": {
+				"mines": {
+					"wood": 1,
+					"mercury": 2,
+					"ore": 1,
+					"sulfur": 2,
+					"crystal": 2,
+					"gems": 2,
+					"gold": 2
+				}
+			},
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:Worlds at War": {
+		"zones": {
+			"10": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"11": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"12": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"14": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"15": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"16": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"crystal": 1,
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:2SM2f": {
+		"zones": {
+			"3": {
+				"mines": {
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"4": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"5": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"6": {
+				"mines": {
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:2SM2h": {
+		"zones": {
+			"3": {
+				"mines": {
+					"mercury": 1,
+					"sulfur": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"5": {
+				"mines": {
+					"crystal": 1,
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:2SM2i(2)": {
+		"zones": {
+			"3": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"5": {
+				"mines": {
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:4SM4e": {
+		"zones": {
+			"5": {
+				"mines": {
+					"gems": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"7": {
+				"mines": {
+					"crystal": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"10": {
+				"mines": {
+					"sulfur": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"12": {
+				"mines": {
+					"mercury": 1,
+					"gold": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"vcmi:7SB0b": {
+		"zones": {
+			"7": {
+				"mines": {
+					"wood": 1,
+					"mercury": 2,
+					"ore": 1,
+					"sulfur": 2,
+					"crystal": 2,
+					"gems": 2
+				}
+			}
+		}
+	},
+	"vcmi:7SB0c": {
+		"zones": {
+			"7": {
+				"mines": {
+					"wood": 1,
+					"mercury": 2,
+					"ore": 1,
+					"sulfur": 2,
+					"crystal": 2,
+					"gems": 2
+				}
+			}
+		}
+	},
+	"vcmi:8XM12": {
+		"zones": {
+			"9": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"10": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"11": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"12": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"13": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"14": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"15": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"16": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"17": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"18": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"19": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"20": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:8XM12a": {
+		"zones": {
+			"9": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"10": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"11": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"12": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"13": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"14": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"15": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"16": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"17": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"18": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"19": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"20": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	},
+	"vcmi:8XM8": {
+		"zones": {
+			"9": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"10": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"11": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"12": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				}
+			},
+			"13": {
+				"mines": {
+					"mercury": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"14": {
+				"mines": {
+					"sulfur": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"15": {
+				"mines": {
+					"crystal": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			},
+			"16": {
+				"mines": {
+					"gems": 1,
+					"wood": 0,
+					"ore": 0
+				},
+				"customObjects": {
+					"bannedObjects": {
+						"mine": {
+							"sawmill": true,
+							"orePit": true
+						}
+					}
+				},
+				"minesLikeZone": -1
+			}
+		}
+	}
+}
