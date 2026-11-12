@@ -22,5 +22,10 @@
         "1.0.2"    : [ "Added three new templates by LastSpy"],
 		"1.0.1"    : [ "Added TwoTownsUGConnectionsFFA template by Karyoplasma"],
 		"1.0.0"    : [ "Initial release with 2 Ash templates"]
+    },
+	"russian" :
+    {
+        "name" : "Пользовательские шаблоны",
+        "description" : "Сборник пользовательских шаблонов случайных карт, созданных сообществом VCMI."
     }
 }
